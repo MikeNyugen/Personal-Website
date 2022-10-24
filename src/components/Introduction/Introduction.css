@@ -1,0 +1,31 @@
+.introduction-div {
+  color: white;
+  background-color: black;
+  padding-top: 1vh;
+  padding-bottom: 19.5%;
+}
+
+@media (min-height: 1050px) {
+  .introduction-div {
+    padding-bottom: 28%;
+  }
+}
+
+.name {
+  font-size: 120px;
+  margin-left: 10%;
+  margin-bottom: -1%;
+  min-width: 40%;
+}
+
+.job-title {
+  font-size: 50px;
+  margin-left: 10%;
+}
+
+.profile-description {
+  font-size: 35px;
+  margin-left: 10%;
+  max-width: 900px;
+  text-align: left;
+}

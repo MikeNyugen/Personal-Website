@@ -1,0 +1,15 @@
+.projects-div {
+  
+}
+
+.projects-heading {
+  font-size: 55px;
+  text-align: center;
+}
+
+.project-image {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10vh;
+}
