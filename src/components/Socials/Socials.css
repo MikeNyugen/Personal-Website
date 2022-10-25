@@ -1,4 +1,3 @@
-
 .social-div {
   position: relative;
   background-color: white;
@@ -6,15 +5,83 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;
-  margin-left: 250px;
-  margin-top: 110px;
+  top: 20px;
   justify-content: center;
+  margin: auto;
+
+  animation: fadeInAnimation ease 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-.icon {
+.icon1 {
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 1%;
   width: 80px;
   height: 80px;
+  animation: fadeInAnimation ease 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  animation-name: floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+}
+
+.icon2 {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 1%;
+  width: 80px;
+  height: 80px;
+  animation: fadeInAnimation ease 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  animation-name: floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -2s;
+}
+
+.icon3 {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 1%;
+  width: 80px;
+  height: 80px;
+  animation: fadeInAnimation ease 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  animation-name: floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -3s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }

@@ -28,7 +28,7 @@ const Socials = () => {
       >
         <a href="https://github.com/MikeNyugen" target="_blank">
           <img
-            className="icon"
+            className="icon1"
             src={require("./github.png")}
             alt="GitHub icon"
           />
@@ -58,7 +58,7 @@ const Socials = () => {
       >
         <a href="https://www.linkedin.com/in/mike-n-644b901b3/" target="_blank">
           <img
-            className="icon"
+            className="icon2"
             src={require("./linkedin.png")}
             alt="LinkedIn icon"
           />
@@ -87,7 +87,7 @@ const Socials = () => {
         }}
       >
         <a href="https://www.linkedin.com/in/mike-n-644b901b3/" target="_blank">
-          <img className="icon" src={require("./mail.png")} alt="mail icon" />
+          <img className="icon3" src={require("./mail.png")} alt="mail icon" />
         </a>
       </Tooltip>
     </div>

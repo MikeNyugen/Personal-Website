@@ -3,7 +3,6 @@ import "react-slideshow-image/dist/styles.css";
 import { Fade } from "react-slideshow-image";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { Scale } from "@mui/icons-material";
 
 const Projects = () => {
   const fadeImages = [
@@ -32,9 +31,10 @@ const Projects = () => {
 
   return (
     <>
+      <h1 className="projects-heading">Projects</h1>
       <div className="banksee">
         <h2 className="project-title">BankSee (In progress)</h2>
-        <Fade duration={5000} indicators={true} {...properties}>
+        <Fade duration={5000} transitionDuration={500} indicators={true} {...properties}>
           {fadeImages.map((fadeImage, index) => (
             <div className="each-fade" key={index}>
               <img className="project-image" src={fadeImage.url} alt="image" />

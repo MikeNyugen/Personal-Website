@@ -1,5 +1,6 @@
 import "./Introduction.css";
 import Socials from "../Socials/Socials";
+import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 const Introduction = () => {
   return (
@@ -11,13 +12,31 @@ const Introduction = () => {
         </a>
       </h1>
       <h2 className="job-title">&#128187; Full-stack software engineer</h2>
-      <p className="profile-description">
-        Hey I’m Mike, I recently graduated from the University of St Andrews
-        with a MSc in computer science. I’m currently looking for full-time
-        software engineering roles in London. Check out my{" "}
-        <strong>projects</strong> below &#128522;
-      </p>
+      <div className="profile-description">
+        <p>
+          Hey I’m Mike, I recently graduated from the University of St Andrews
+          with a MSc in computer science. I’m currently looking for full-time
+          software engineering roles in London. Check out my{" "}
+          <strong>projects</strong> below &#128522;
+        </p>
+      </div>
+
       <Socials />
+      <div className="down-arrow">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="80"
+          height="80"
+          fill="currentColor"
+          class="bi bi-arrow-down-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"
+          />
+        </svg>
+      </div>
     </div>
   );
 };
