@@ -1,12 +1,12 @@
 
 .social-div {
+  position: relative;
   background-color: white;
   width: 400px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;
-  position: relative;
-  margin-left: 15%;
+  margin-left: 250px;
   margin-top: 110px;
   justify-content: center;
 }

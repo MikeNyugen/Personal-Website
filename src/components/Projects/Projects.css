@@ -1,4 +1,17 @@
-.project-div {
+.banksee {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: 700px;
+  width: 1300px;
+  margin-bottom: 10vh;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #db7093
+}
+
+.ethical-review {
   position: relative;
   margin: auto;
   text-align: center;
@@ -11,10 +24,36 @@
   background-color: #00539b;
 }
 
+.spread-the-dead {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: 700px;
+  width: 1300px;
+  margin-bottom: 10vh;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: rgb(38, 38, 38);
+}
+
+.linear-codes {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: 700px;
+  width: 1300px;
+  margin-bottom: 10vh;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #989898;
+}
+
 .project-image {
   display: flex;
   width: 700px;
-  height: 400px;
+  height: 390px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -27,7 +66,7 @@
   font-size: 20px;
   margin-right: 80%;
   margin-left: 4%;
-  bottom: 65%;
+  bottom: 75%;
   width: 35%;
   text-align: left;
   color: white;
@@ -46,4 +85,20 @@
 
 li {
   margin: 5px 0;
+}
+
+.slide-button-left {
+  transform: scale(1.5);
+  background: none;
+  border: 0px;
+  margin-left: 15px;
+  color: white;
+}
+
+.slide-button-right {
+  transform: scale(1.5);
+  background: none;
+  border: 0px;
+  margin-right: 5px;
+  color: white;
 }
