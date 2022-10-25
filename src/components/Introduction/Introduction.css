@@ -2,7 +2,7 @@
   color: white;
   background-color: black;
   padding-top: 1vh;
-  padding-bottom: 19.5%;
+  padding-bottom: 20%;
 }
 
 @media (min-height: 1050px) {
@@ -18,9 +18,24 @@
   min-width: 40%;
 }
 
+@media (min-width: 1700px) {
+  .name {
+    font-size: 140px;
+  }
+  .job-title {
+    font-size: 70px;
+  }
+}
+
 .job-title {
   font-size: 50px;
   margin-left: 10%;
+}
+
+@media (min-width: 1700px) {
+  .job-title {
+    font-size: 70px;
+  }
 }
 
 .profile-description {
@@ -28,4 +43,11 @@
   margin-left: 10%;
   max-width: 900px;
   text-align: left;
+}
+
+@media (min-width: 1700px) {
+  .profile-description {
+    font-size: 50px;
+    max-width: 1300px;
+  }
 }

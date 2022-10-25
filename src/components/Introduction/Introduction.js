@@ -1,4 +1,5 @@
 import "./Introduction.css";
+import Socials from "../Socials/Socials"
 
 const Introduction = () => {
   return (
@@ -11,6 +12,8 @@ const Introduction = () => {
         software engineering roles in London. Check out my{" "}
         <strong>projects</strong> below &#128522;
       </p>
+      
+      <Socials />
     </div>
   );
 };
