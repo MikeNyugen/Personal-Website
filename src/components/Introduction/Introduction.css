@@ -1,53 +1,35 @@
 .introduction-div {
   color: white;
-  background-color: black;
   padding-top: 1vh;
-  padding-bottom: 20%;
-}
-
-@media (min-height: 1050px) {
-  .introduction-div {
-    padding-bottom: 28%;
-  }
+  padding-bottom: 15%;
+  background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2948ff,
+    #396afc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2948ff,
+    #396afc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .name {
-  font-size: 120px;
-  margin-left: 10%;
+  font-size: 100px;
+  margin-left: 15%;
   margin-bottom: -1%;
   min-width: 40%;
 }
 
-@media (min-width: 1700px) {
-  .name {
-    font-size: 140px;
-  }
-  .job-title {
-    font-size: 70px;
-  }
-}
-
 .job-title {
-  font-size: 50px;
-  margin-left: 10%;
-}
-
-@media (min-width: 1700px) {
-  .job-title {
-    font-size: 70px;
-  }
+  font-size: 40px;
+  margin-left: 15%;
 }
 
 .profile-description {
-  font-size: 35px;
-  margin-left: 10%;
-  max-width: 900px;
-  text-align: left;
-}
-
-@media (min-width: 1700px) {
-  .profile-description {
-    font-size: 50px;
-    max-width: 1300px;
-  }
+  font-size: 30px;
+  margin-left: 15%;
+  max-width: 960px;
+  text-align: justify;
 }
