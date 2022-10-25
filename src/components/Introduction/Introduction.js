@@ -4,7 +4,12 @@ import Socials from "../Socials/Socials";
 const Introduction = () => {
   return (
     <div className="introduction-div">
-      <h1 className="name">Hey I'm Mike Nguyen.</h1>
+      <h1 className="name">
+        Hey I'm Mike{" "}
+        <a href="https://www.youtube.com/watch?v=TGO6gQbm0v4" target="_blank">
+          Nguyen.
+        </a>
+      </h1>
       <h2 className="job-title">&#128187; Full-stack software engineer</h2>
       <p className="profile-description">
         Hey I’m Mike, I recently graduated from the University of St Andrews

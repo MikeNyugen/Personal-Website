@@ -21,7 +21,7 @@ const Socials = () => {
                 width: "0px",
               },
               color: "black",
-              fontFamily: "helvetica",
+              fontWeight: "bold"
             },
           },
         }}
@@ -51,7 +51,7 @@ const Socials = () => {
                 width: "0px",
               },
               color: "black",
-              fontFamily: "helvetica",
+              fontWeight: "bold"
             },
           },
         }}
@@ -81,7 +81,7 @@ const Socials = () => {
                 width: "0px",
               },
               color: "black",
-              fontFamily: "helvetica",
+              fontWeight: "bold"
             },
           },
         }}
