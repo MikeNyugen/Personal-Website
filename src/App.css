@@ -1,3 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Manrope'
+}
+
+.top {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  bottom: 15px;
+}
+
+.top:hover {
+  color: #396afc;
 }

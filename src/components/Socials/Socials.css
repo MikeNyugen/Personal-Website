@@ -1,7 +1,7 @@
 .social-div {
   position: relative;
   background-color: white;
-  width: 400px;
+  width: 520px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;
@@ -64,6 +64,24 @@
   animation-timing-function: ease-in-out;
   animation-delay: -3s;
 }
+
+.icon4 {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 1%;
+  width: 80px;
+  height: 80px;
+  animation: fadeInAnimation ease 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  animation-name: floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -4s;
+}
+
 
 @keyframes fadeInAnimation {
   0% {

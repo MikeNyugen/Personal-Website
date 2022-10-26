@@ -46,6 +46,16 @@ a:hover {
   animation-fill-mode: forwards;
 }
 
+.contact-me {
+  position: relative;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  top: 80px;
+  font-size: 30px;
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;

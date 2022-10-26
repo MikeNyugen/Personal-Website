@@ -32,7 +32,7 @@ const Projects = () => {
 
   return (
     <>
-      <h1 className="projects-heading">Projects</h1>
+      <h1 id="projects" className="projects-heading">Projects</h1>
       <div className="banksee">
         <h2 className="project-title">BankSee (In progress)</h2>
         <Fade
