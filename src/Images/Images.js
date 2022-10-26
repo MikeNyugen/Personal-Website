@@ -1,15 +1,18 @@
 export const bankseeImages = [
   {
     url: "https://drive.google.com/uc?export=view&id=14LzMMU9VaLugTcT-ROYmIlqlvq33I5oQ",
+    caption: "Truelayer bank login gateway"
   },
   {
     url: "https://drive.google.com/uc?export=view&id=1iq-2jt3i6rlEq-R93iAICy21JLeBLFll",
+    caption: "Truelayer user authentication"
   },
 ];
 
 export const ethicalImages = [
   {
     url: "https://drive.google.com/uc?export=view&id=1FqxdFnoBxPGAFujTEay-Yf0hXG0cIkeU",
+    caption: "Landing page"
   },
 ];
 

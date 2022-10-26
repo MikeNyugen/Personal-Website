@@ -9,13 +9,14 @@ function App() {
     <div className="App">
       <Introduction />
       <Projects />
-      <hr></hr>
-      <a href="#top">
-        <div className="top">
-          <p className="text">Back to top</p>
-        </div>
-      </a>
-      <Footer />
+      <div className="footer-div">
+        <a href="#top">
+          <div className="top">
+            <p className="text">Back to top</p>
+          </div>
+        </a>
+        <Footer />
+      </div>
     </div>
   );
 }

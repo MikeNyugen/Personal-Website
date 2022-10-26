@@ -14,9 +14,19 @@ body {
   font-size: 30px;
   bottom: 15px;
   width: 200px;
+  color: white;
 }
 
 .top:hover {
-  color: #396afc;
-  font-weight: bold;
+  font-weight: bolder;
+  color: black;
+}
+
+.footer-div {
+  position:relative;
+  height: 199px;
+  padding-top: 2px;
+  background: #396afc;
+  background: -webkit-linear-gradient(to left, #2948ff, #396afc);
+  background: linear-gradient(to left, #2948ff, #396afc);
 }
