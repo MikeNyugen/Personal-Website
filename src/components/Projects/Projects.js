@@ -22,7 +22,6 @@ const Projects = () => {
         <h2 className="project-title">BankSee (In progress)</h2>
         <SlideShow imageList={bankseeImages} />
         <LogoStack logoList={bankseeLogoList} codeAvailable={false} />
-
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
@@ -39,7 +38,6 @@ const Projects = () => {
             </a>{" "}
             as the open banking platform.
           </p>
-
           <h4>Key Features:</h4>
           <ul className="features">
             <li>
@@ -48,7 +46,6 @@ const Projects = () => {
             <li>View top places where users have spent money</li>
             <li>View where you have spent your money on an interactive map</li>
           </ul>
-
           <h4>Technologies:</h4>
           <span>Front-end: React, TypeScript</span>
           <br></br>
@@ -60,7 +57,6 @@ const Projects = () => {
         <h2 className="project-title">Ethical Review Management System</h2>
         <SlideShow imageList={ethicalImages} />
         <LogoStack logoList={ethicalLogoList} codeAvailable={true} />
-
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
@@ -72,7 +68,6 @@ const Projects = () => {
             <li>Automated the process ethical applciation process</li>
             <li>File upload and download</li>
           </ul>
-
           <h4>Technologies:</h4>
           <p>Front-end: React, TypeScript</p>
           <p>Back-end: Spring Boot, Java, PostgreSQL</p>
@@ -83,7 +78,6 @@ const Projects = () => {
         <h2 className="project-title">Spread the Dead</h2>
         <SlideShow imageList={deadImages} />
         <LogoStack logoList={deadLogoList} codeAvailable={false} />
-
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
@@ -95,7 +89,6 @@ const Projects = () => {
             <li>Automated the process ethical applciation process</li>
             <li>File upload and download</li>
           </ul>
-
           <h4>Technologies:</h4>
           <p>Processing (Java)</p>
         </div>
@@ -105,7 +98,6 @@ const Projects = () => {
         <h2 className="project-title2">Linear Codes from Bipartite Graphs</h2>
         <SlideShow imageList={codeImages} />
         <LogoStack logoList={codeLogoList} codeAvailable={false} />
-
         <div className="project-summary2">
           <h4>Project Summary:</h4>
           <p>
@@ -119,7 +111,6 @@ const Projects = () => {
             <li>Automated the process ethical applciation process</li>
             <li>File upload and download</li>
           </ul>
-
           <h4>Technologies:</h4>
           <p>JavaFx, Java, Maven</p>
         </div>

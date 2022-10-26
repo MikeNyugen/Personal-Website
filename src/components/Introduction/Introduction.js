@@ -1,5 +1,5 @@
 import "./Introduction.css";
-import Socials from "../Socials/Socials";
+import SocialStack from "../SocialStack/SocialStack";
 
 const Introduction = () => {
   return (
@@ -26,7 +26,8 @@ const Introduction = () => {
         </p>
       </div>
 
-      <Socials />
+      <SocialStack />
+
       <div className="down-arrow">
         <a href="#projects">
           <svg
