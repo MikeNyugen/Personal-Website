@@ -1,0 +1,11 @@
+.project-image-div {
+  position: relative;
+  width: 770px;
+  height: 390px;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.project-image {
+  border-radius: 10px;
+}

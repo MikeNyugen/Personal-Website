@@ -1,12 +1,7 @@
 import "./Projects.css";
 import "react-slideshow-image/dist/styles.css";
-import { Fade } from "react-slideshow-image";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import Stack from "@mui/material/Stack";
-import Tooltip from "@mui/material/Tooltip";
-import Zoom from "@mui/material/Zoom";
 import LogoStack from "../LogoStack/LogoStack";
+import SlideShow from "../SlideShow/SlideShow";
 import { bankseeImages } from "../../Images/Images";
 import { ethicalImages } from "../../Images/Images";
 import { deadImages } from "../../Images/Images";
@@ -16,48 +11,16 @@ import { ethicalLogoList } from "../../Images/Images";
 import { deadLogoList } from "../../Images/Images";
 import { codeLogoList } from "../../Images/Images";
 
-const properties = {
-  prevArrow: (
-    <button className="slide-button-left">
-      <ArrowBackIosIcon />
-    </button>
-  ),
-  nextArrow: (
-    <button className="slide-button-right">
-      <ArrowForwardIosIcon />
-    </button>
-  ),
-};
-
 const Projects = () => {
   return (
     <>
       <h1 id="projects" className="projects-heading">
         Projects
       </h1>
+
       <div className="banksee">
         <h2 className="project-title">BankSee (In progress)</h2>
-        <div className="project-image-div">
-          <Fade
-            duration={5000}
-            transitionDuration={500}
-            indicators={true}
-            {...properties}
-          >
-            {bankseeImages.map((fadeImage, index) => (
-              <div key={index}>
-                <img
-                  className="project-image"
-                  width="700px"
-                  height="390px"
-                  src={fadeImage.url}
-                  alt="image"
-                />
-              </div>
-            ))}
-          </Fade>
-        </div>
-
+        <SlideShow imageList={bankseeImages} />
         <LogoStack logoList={bankseeLogoList} codeAvailable={false} />
 
         <div className="project-summary">
@@ -95,28 +58,7 @@ const Projects = () => {
 
       <div className="ethical-review">
         <h2 className="project-title">Ethical Review Management System</h2>
-
-        <div className="project-image-div">
-          <Fade
-            duration={5000}
-            transitionDuration={500}
-            indicators={true}
-            {...properties}
-          >
-            {ethicalImages.map((fadeImage, index) => (
-              <div key={index}>
-                <img
-                  className="project-image"
-                  width="700px"
-                  height="390px"
-                  src={fadeImage.url}
-                  alt="image"
-                />
-              </div>
-            ))}
-          </Fade>
-        </div>
-
+        <SlideShow imageList={ethicalImages} />
         <LogoStack logoList={ethicalLogoList} codeAvailable={true} />
 
         <div className="project-summary">
@@ -139,28 +81,7 @@ const Projects = () => {
 
       <div className="spread-the-dead">
         <h2 className="project-title">Spread the Dead</h2>
-
-        <div className="project-image-div">
-          <Fade
-            duration={10000}
-            transitionDuration={500}
-            indicators={true}
-            {...properties}
-          >
-            {deadImages.map((fadeImage, index) => (
-              <div key={index}>
-                <img
-                  className="project-image"
-                  width="700px"
-                  height="390px"
-                  src={fadeImage.url}
-                  alt="image"
-                />
-              </div>
-            ))}
-          </Fade>
-        </div>
-
+        <SlideShow imageList={deadImages} />
         <LogoStack logoList={deadLogoList} codeAvailable={false} />
 
         <div className="project-summary">
@@ -182,29 +103,8 @@ const Projects = () => {
 
       <div className="linear-codes">
         <h2 className="project-title2">Linear Codes from Bipartite Graphs</h2>
-
-        <div className="project-image-div">
-          <Fade
-            duration={5000}
-            transitionDuration={500}
-            indicators={true}
-            {...properties}
-          >
-            {codeImages.map((fadeImage, index) => (
-              <div key={index}>
-                <img
-                  className="project-image"
-                  width="700px"
-                  height="390px"
-                  src={fadeImage.url}
-                  alt="image"
-                />
-              </div>
-            ))}
-          </Fade>
-        </div>
-
-       <LogoStack logoList={codeLogoList} codeAvailable={false} />
+        <SlideShow imageList={codeImages} />
+        <LogoStack logoList={codeLogoList} codeAvailable={false} />
 
         <div className="project-summary2">
           <h4>Project Summary:</h4>
