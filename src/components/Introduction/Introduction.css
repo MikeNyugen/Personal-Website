@@ -18,7 +18,7 @@ a:hover {
 }
 
 .name {
-  font-size: 100px;
+  font-size: 110px;
   margin-bottom: -1%;
   min-width: 40%;
   animation: fadeInAnimation ease 3.5s;
@@ -27,7 +27,7 @@ a:hover {
 }
 
 .job-title {
-  font-size: 40px;
+  font-size: 45px;
   animation: fadeInAnimation ease 3.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -39,6 +39,7 @@ a:hover {
   max-width: 960px;
   text-align: justify;
   margin: auto;
+  top: 30px;
 
   animation: fadeInAnimation ease 3.5s;
   animation-iteration-count: 1;
@@ -69,7 +70,7 @@ a:hover {
 .down-arrow {
   position: relative;
   text-align: center;
-  margin-top: 260px;
+  margin-top: 230px;
 
   animation: fadeInAnimation ease 3.5s;
   animation-iteration-count: 1;
