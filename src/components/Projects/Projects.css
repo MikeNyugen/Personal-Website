@@ -50,25 +50,26 @@
   background-color: #989898;
 }
 
-.project-image {
+.project-image-div {
   position: relative;
-  width: 700px;
+  width: 770px;
   height: 390px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  margin-left: 37%;
+  margin-left: 40%;
   margin-top: 5%;
 }
 
 .project-summary {
   position: relative;
-  font-size: 20px;
+  font-size: 19px;
   margin-left: 4%;
-  bottom: 84%;
-  width: 35%;
+  bottom: 75%;
+  width: 34%;
   text-align: left;
   color: white;
+}
+
+.features {
+  font-size: 18px;
 }
 
 .projects-heading {
@@ -87,28 +88,27 @@ li {
 }
 
 .slide-button-left {
-  transform: scale(1.5);
+  transform: scale(1.4);
   background: none;
   border: 0px;
-  margin-left: 15px;
   color: white;
+  margin-left: 9px;
 }
 
 .slide-button-right {
-  transform: scale(1.5);
+  transform: scale(1.4);
   background: none;
   border: 0px;
-  margin-right: 5px;
   color: white;
 }
 
 .logo-stack {
   position: relative;
-
   left: 47px;
   width: 1000px;
   padding: 5px;
   border-radius: 5px;
+  top: 90px;
 }
 
 .tech-logo {

@@ -10,9 +10,10 @@ function App() {
       <Introduction />
       <Projects />
       <hr></hr>
-      <br></br>
       <a href="#top">
-        <h2 className="top">Back to top</h2>
+        <div className="top">
+          <p className="text">Back to top</p>
+        </div>
       </a>
       <Footer />
     </div>

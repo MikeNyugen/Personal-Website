@@ -3,17 +3,20 @@ html {
 }
 
 body {
-  font-family: 'Manrope'
+  font-family: "Manrope";
 }
 
 .top {
   position: relative;
+  margin: auto;
   text-align: center;
   justify-content: center;
   font-size: 30px;
   bottom: 15px;
+  width: 200px;
 }
 
 .top:hover {
   color: #396afc;
+  font-weight: bold;
 }

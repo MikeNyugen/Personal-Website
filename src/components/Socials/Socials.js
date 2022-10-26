@@ -6,7 +6,7 @@ const Socials = () => {
   return (
     <div className="social-div">
       <Tooltip
-        title="GitHub repository"
+        title="GitHub Repository"
         placement="bottom"
         TransitionComponent={Zoom}
         TransitionProps={{ timeout: 150 }}
@@ -90,13 +90,13 @@ const Socials = () => {
           },
         }}
       >
-        <a href="https://www.linkedin.com/in/mike-n-644b901b3/" target="_blank">
+        <a href="mailto:mikenguyen017@gmail.com" target="_blank">
           <img className="icon3" src={require("./mail.png")} alt="mail icon" />
         </a>
       </Tooltip>
 
       <Tooltip
-        title="Instagram profile"
+        title="Instagram Profile"
         placement="bottom"
         TransitionComponent={Zoom}
         TransitionProps={{ timeout: 150 }}

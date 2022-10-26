@@ -39,18 +39,25 @@ const Projects = () => {
       </h1>
       <div className="banksee">
         <h2 className="project-title">BankSee (In progress)</h2>
-        <Fade
-          duration={5000}
-          transitionDuration={500}
-          indicators={true}
-          {...properties}
-        >
-          {fadeImages.map((fadeImage, index) => (
-            <div className="each-fade" key={index}>
-              <img className="project-image" src={fadeImage.url} alt="image" />
-            </div>
-          ))}
-        </Fade>
+        <div className="project-image-div">
+          <Fade
+            duration={5000}
+            transitionDuration={500}
+            indicators={true}
+            {...properties}
+          >
+            {fadeImages.map((fadeImage, index) => (
+              <div key={index}>
+                <img
+                  width="700px"
+                  height="390px"
+                  src={fadeImage.url}
+                  alt="image"
+                />
+              </div>
+            ))}
+          </Fade>
+        </div>
 
         <div className="logo-stack">
           <Stack direction="row" spacing={3}>
@@ -82,33 +89,59 @@ const Projects = () => {
         </div>
 
         <div className="project-summary">
-          <h3>Project Summary:</h3>
+          <h4>Project Summary:</h4>
           <p>
-            An application leveraging open banking to allow users to gain more
-            insight into their banking habits.
+            An application leveraging{" "}
+            <a
+              href="https://www.gov.uk/government/publications/update-governance-of-open-banking/update-on-open-banking"
+              target="_blank"
+            >
+              <strong>Open Banking </strong>
+            </a>
+            to allow users to gain more insight into their banking habits. Uses{" "}
+            <a href="https://truelayer.com/" target="_blank">
+              <strong>Truelayer</strong>
+            </a>{" "}
+            as the open banking platform.
           </p>
           <h4>Key Features:</h4>
-          <ul>
-            <li>Automated the process ethical applciation process</li>
-            <li>File upload and download</li>
+          <ul className="features">
+            <li>
+              Log into any bank account to view balance and transactions history
+            </li>
+            <li>View top places where users have spent money</li>
+            <li>View where you have spent your money on an interactive map</li>
           </ul>
 
           <h4>Technologies:</h4>
-          <p>Front-end: React, TypeScript</p>
-          <p>Back-end: Spring Boot, Java, PostgreSQL</p>
+          <span>Front-end: React, TypeScript</span>
+          <br></br>
+          <span>Back-end: Firebase</span>
         </div>
       </div>
 
       <div className="ethical-review">
         <h2 className="project-title">Ethical Review Management System</h2>
 
-        <Fade duration={5000} indicators={true} {...properties}>
-          {fadeImages.map((fadeImage, index) => (
-            <div className="each-fade" key={index}>
-              <img className="project-image" src={fadeImage.url} alt="image" />
-            </div>
-          ))}
-        </Fade>
+        <div className="project-image-div">
+          <Fade
+            duration={5000}
+            transitionDuration={500}
+            indicators={true}
+            {...properties}
+          >
+            {fadeImages.map((fadeImage, index) => (
+              <div key={index}>
+                <img
+                  width="700px"
+                  height="390px"
+                  src={fadeImage.url}
+                  alt="image"
+                />
+              </div>
+            ))}
+          </Fade>
+        </div>
 
         <div className="logo-stack">
           <Stack direction="row" spacing={3}>
@@ -211,13 +244,25 @@ const Projects = () => {
       <div className="spread-the-dead">
         <h2 className="project-title">Spread the Dead</h2>
 
-        <Fade duration={5000} indicators={true} {...properties}>
-          {fadeImages.map((fadeImage, index) => (
-            <div className="each-fade" key={index}>
-              <img className="project-image" src={fadeImage.url} alt="image" />
-            </div>
-          ))}
-        </Fade>
+        <div className="project-image-div">
+          <Fade
+            duration={5000}
+            transitionDuration={500}
+            indicators={true}
+            {...properties}
+          >
+            {fadeImages.map((fadeImage, index) => (
+              <div key={index}>
+                <img
+                  width="700px"
+                  height="390px"
+                  src={fadeImage.url}
+                  alt="image"
+                />
+              </div>
+            ))}
+          </Fade>
+        </div>
 
         <div className="logo-stack">
           <Stack direction="row" spacing={3}>
@@ -253,13 +298,25 @@ const Projects = () => {
       <div className="linear-codes">
         <h2 className="project-title">Linear Codes from Bipartite Graphs</h2>
 
-        <Fade duration={5000} indicators={true} {...properties}>
-          {fadeImages.map((fadeImage, index) => (
-            <div className="each-fade" key={index}>
-              <img className="project-image" src={fadeImage.url} alt="image" />
-            </div>
-          ))}
-        </Fade>
+        <div className="project-image-div">
+          <Fade
+            duration={5000}
+            transitionDuration={500}
+            indicators={true}
+            {...properties}
+          >
+            {fadeImages.map((fadeImage, index) => (
+              <div key={index}>
+                <img
+                  width="700px"
+                  height="390px"
+                  src={fadeImage.url}
+                  alt="image"
+                />
+              </div>
+            ))}
+          </Fade>
+        </div>
 
         <div className="logo-stack">
           <Stack direction="row" spacing={3}>
