@@ -1,12 +1,7 @@
 import "./Introduction.css";
 import Socials from "../Socials/Socials";
-import { useRef } from "react";
 
 const Introduction = () => {
-  const myRef = useRef(null);
-
-  const executeScroll = () => myRef.current.scrollIntoView();
-
   return (
     <div className="introduction-div">
       <h1 className="name">

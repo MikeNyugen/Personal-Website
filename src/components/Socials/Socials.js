@@ -22,7 +22,7 @@ const Socials = () => {
               },
               color: "black",
               fontWeight: "bold",
-              fontFamily: "roboto",
+              borderRadius: "10px"
             },
           },
         }}
@@ -53,7 +53,7 @@ const Socials = () => {
               },
               color: "black",
               fontWeight: "bold",
-              fontFamily: "roboto",
+              borderRadius: "10px"
             },
           },
         }}
@@ -84,9 +84,8 @@ const Socials = () => {
               },
               color: "black",
               fontWeight: "bold",
-              fontFamily: "roboto",
-              textAlign: "center"
-              
+              textAlign: "center",
+              borderRadius: "10px"
             },
           },
         }}
@@ -95,7 +94,6 @@ const Socials = () => {
           <img className="icon3" src={require("./mail.png")} alt="mail icon" />
         </a>
       </Tooltip>
-
 
       <Tooltip
         title="Instagram profile"
@@ -114,7 +112,7 @@ const Socials = () => {
               },
               color: "black",
               fontWeight: "bold",
-              fontFamily: "roboto",
+              borderRadius: "10px"
             },
           },
         }}

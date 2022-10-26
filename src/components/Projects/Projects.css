@@ -11,9 +11,6 @@
   background-color: #db7093;
 }
 
-.banksee:hover {
-}
-
 .ethical-review {
   position: relative;
   margin: auto;
@@ -142,4 +139,38 @@ li {
   width: 110px;
   height: 40px;
   display: flex;
+}
+
+.github {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  left: 82%;
+}
+
+.github2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  left: 101%;
+}
+
+.source-code {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  display: flex;
+  left: 50%;
+}
+
+.source-code2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  display: flex;
+  left: 62%;
 }
