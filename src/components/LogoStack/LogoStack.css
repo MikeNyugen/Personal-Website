@@ -1,0 +1,64 @@
+.logo-stack {
+  position: relative;
+  left: 47px;
+  width: 1000px;
+  padding: 5px;
+  border-radius: 5px;
+  top: 80px;
+}
+
+.tech-logo {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  display: flex;
+}
+
+.postgres-logo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  left: 105px;
+}
+
+.javafx-logo {
+  position: relative;
+  width: 110px;
+  height: 40px;
+  display: flex;
+}
+
+.github {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  left: 82%;
+}
+
+.github2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  left: 101%;
+}
+
+.source-code {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  display: flex;
+  left: 50%;
+}
+
+.source-code2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  display: flex;
+  left: 62%;
+}

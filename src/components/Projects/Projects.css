@@ -11,6 +11,10 @@
   background-color: #db7093;
 }
 
+h4 {
+  margin-bottom: 10px;
+}
+
 .ethical-review {
   position: relative;
   margin: auto;
@@ -47,7 +51,7 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #989898;
+  background-color: #bebebe;
 }
 
 .project-image-div {
@@ -58,14 +62,28 @@
   margin-top: 5%;
 }
 
+.project-image {
+  border-radius: 10px;
+}
+
 .project-summary {
   position: relative;
   font-size: 19px;
   margin-left: 4%;
   bottom: 75%;
   width: 34%;
-  text-align: left;
+  text-align: justify;
   color: white;
+}
+
+.project-summary2 {
+  position: relative;
+  font-size: 19px;
+  margin-left: 4%;
+  bottom: 75%;
+  width: 34%;
+  text-align: justify;
+  color: black;
 }
 
 .features {
@@ -83,6 +101,12 @@
   color: white;
 }
 
+.project-title2 {
+  font-size: 40px;
+  padding-top: 2vh;
+  color: black;
+}
+
 li {
   margin: 5px 0;
 }
@@ -92,7 +116,7 @@ li {
   background: none;
   border: 0px;
   color: white;
-  margin-left: 9px;
+  margin-left: 8.5px;
 }
 
 .slide-button-right {
@@ -102,75 +126,8 @@ li {
   color: white;
 }
 
-.logo-stack {
-  position: relative;
-  left: 47px;
-  width: 1000px;
-  padding: 5px;
-  border-radius: 5px;
-  top: 90px;
-}
 
-.tech-logo {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-}
 
-.postgres-logo {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  left: 105px;
-}
 
-.gradle-logo {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  left: 90px;
-}
 
-.javafx-logo {
-  position: relative;
-  width: 110px;
-  height: 40px;
-  display: flex;
-}
 
-.github {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  left: 82%;
-}
-
-.github2 {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  left: 101%;
-}
-
-.source-code {
-  font-size: 22px;
-  font-weight: bold;
-  color: white;
-  position: relative;
-  display: flex;
-  left: 50%;
-}
-
-.source-code2 {
-  font-size: 22px;
-  font-weight: bold;
-  color: white;
-  position: relative;
-  display: flex;
-  left: 62%;
-}
