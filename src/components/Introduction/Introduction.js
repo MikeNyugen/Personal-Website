@@ -31,9 +31,9 @@ const Introduction = () => {
       <div className="down-arrow">
         <a href="#projects">
           <svg
+            width={80}
+            height={80}
             xmlns="http://www.w3.org/2000/svg"
-            width="80"
-            height="80"
             fill="currentColor"
             class="bi bi-arrow-down-circle"
             viewBox="0 0 16 16"

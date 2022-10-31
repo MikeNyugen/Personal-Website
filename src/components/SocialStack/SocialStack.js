@@ -30,7 +30,7 @@ const SocialStack = () => {
       <SocialLogo
         title="Instagram Profile"
         imageURL="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
-        href=""
+        href="https://www.instagram.com/nguyenandtonic/"
         alt="Instagram logo"
         cssClass="icon4"
       />

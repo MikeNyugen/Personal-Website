@@ -36,16 +36,20 @@ export const codeImages = [
 
 export const bankseeLogoList = [
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-    alt: "React logo",
+    src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
+    alt: "Svelte logo",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     alt: "Typescript logo",
   },
   {
-    src: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-    alt: "Fireship logo",
+    src: "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
+    alt: ".NET Core logo",
+  },
+  {
+    src: "https://avatars.githubusercontent.com/u/21106665?s=200&v=4",
+    alt: "TrueLayer logo",
   },
 ];
 
@@ -53,6 +57,10 @@ export const ethicalLogoList = [
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     alt: "React logo",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+    alt: "GraphQL logo",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",

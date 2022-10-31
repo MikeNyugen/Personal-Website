@@ -4,7 +4,8 @@
   background: #396afc;
   background: -webkit-linear-gradient(to left, #2948ff, #396afc);
   background: linear-gradient(to left, #2948ff, #396afc);
-  min-height: 937px;
+  min-height: 100vh;
+  min-width: 100vw;
   text-align: center;
 }
 
@@ -80,7 +81,7 @@ a:hover {
 .down-arrow {
   position: relative;
   text-align: center;
-  margin-top: 230px;
+  margin-top: 12%;
 
   animation: fadeInAnimation ease 3.5s;
   animation-iteration-count: 1;
@@ -92,4 +93,31 @@ a:hover {
   animation-timing-function: ease-in-out;
 }
 
+@media (max-width: 1024px) {
+  
 
+  .name {
+    font-size: 40px;
+  }
+
+  .job-title {
+    font-size: 20px;
+  }
+
+  .profile-description {
+    position: relative;
+    font-size: 15px;
+    max-width: 370px;
+    text-align: justify;
+    margin: auto;
+    top: 30px;
+  }
+
+  .down-arrow {
+    margin-top: 16%;
+  }
+
+  svg {
+    width: 50px;
+  }
+}

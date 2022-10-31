@@ -17,7 +17,7 @@ const Projects = () => {
       <h1 id="projects" className="projects-heading">
         Projects
       </h1>
-
+      {false ? 
       <div className="banksee">
         <h2 className="project-title">BankSee (In progress)</h2>
         <SlideShow imageList={bankseeImages} />
@@ -36,7 +36,7 @@ const Projects = () => {
             <a href="https://truelayer.com/" target="_blank">
               <strong>Truelayer</strong>
             </a>{" "}
-            as the open banking platform.
+            as the open banking provider.
           </p>
           <h4>Key Features:</h4>
           <ul className="features">
@@ -47,11 +47,11 @@ const Projects = () => {
             <li>View where you have spent your money on an interactive map</li>
           </ul>
           <h4>Technologies:</h4>
-          <span>Front-end: React, TypeScript</span>
+          <span>Front-end: Svelte, TypeScript</span>
           <br></br>
-          <span>Back-end: Firebase</span>
+          <span>Back-end: .NET Core, C#, TrueLayer</span>
         </div>
-      </div>
+      </div>: <></>}
 
       <div className="ethical-review">
         <h2 className="project-title">Ethical Review Management System</h2>
@@ -69,10 +69,10 @@ const Projects = () => {
             <li>File upload and download</li>
           </ul>
           <h4>Technologies:</h4>
-          <p>Front-end: React, TypeScript</p>
+          <p>Front-end: React, GraphQL TypeScript</p>
           <p>Back-end: Spring Boot, Java, PostgreSQL</p>
         </div>
-      </div>
+      </div> 
 
       <div className="spread-the-dead">
         <h2 className="project-title">Spread the Dead</h2>
