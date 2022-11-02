@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfa56d02.css",
+    "main.css": "/static/css/main.82d29620.css",
     "main.js": "/static/js/main.9e026d4c.js",
     "static/media/spread-the-dead.gif": "/static/media/spread-the-dead.d0d2fa102a8979a3e8e3.gif",
     "static/media/linear-codes-1.png": "/static/media/linear-codes-1.93ff02e4cd82c4ef3ead.png",
@@ -8,11 +8,11 @@
     "static/media/spread-the-dead-1.png": "/static/media/spread-the-dead-1.49971e844e04241fa753.png",
     "static/media/ethical-review-1.png": "/static/media/ethical-review-1.511a2061039011873418.png",
     "index.html": "/index.html",
-    "main.bfa56d02.css.map": "/static/css/main.bfa56d02.css.map",
+    "main.82d29620.css.map": "/static/css/main.82d29620.css.map",
     "main.9e026d4c.js.map": "/static/js/main.9e026d4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfa56d02.css",
+    "static/css/main.82d29620.css",
     "static/js/main.9e026d4c.js"
   ]
 }
