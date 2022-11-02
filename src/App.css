@@ -31,7 +31,6 @@ body {
   background: #396afc;
   background: -webkit-linear-gradient(to left, #2948ff, #396afc);
   background: linear-gradient(to left, #2948ff, #396afc);
-  min-width: 1680px;
   top: 10.5vh;
 }
 
@@ -39,6 +38,6 @@ body {
 /*Ipad Pro*/
 @media screen and (max-width: 1024px) and (max-height: 1366px)  {
   .footer-div {
-    min-width: 500px;
+ 
   }
 }

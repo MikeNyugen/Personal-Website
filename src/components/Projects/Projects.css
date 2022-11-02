@@ -226,3 +226,86 @@ li {
     color: white;
   }
 }
+
+
+/*IPhone X*/
+@media screen and (max-width: 375px) and (max-height: 812px) {
+  .projects-heading {
+    font-size: 40px;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .banksee {
+    height: 700px;
+    width: 340px;
+    margin-bottom: 10vh;
+  }
+
+  .ethical-review {
+    height: 700px;
+    width: 340px;
+    margin-bottom: 10vh;
+  }
+
+  .spread-the-dead {
+    height: 700px;
+    width: 340px;
+    margin-bottom: 10vh;
+  }
+
+  .linear-codes {
+    height: 700px;
+    width: 340px;
+  }
+
+  .project-summary {
+    font-size: 12px;
+    margin-left: 10%;
+    bottom: 10px;
+    width: 34%;
+    text-align: justify;
+    color: white;
+  }
+
+  .project-summary2 {
+    font-size: 16px;
+    margin-left: 10%;
+    bottom: 10px;
+    width: 37%;
+    text-align: justify;
+    color: white;
+  }
+
+  .key-features {
+    position: relative;
+    font-size: 13px;
+    margin-left: 55%;
+    top: -209px;
+    width: 34%;
+    text-align: justify;
+    color: white;
+  }
+
+  .banksee-technologies {
+    position: relative;
+    font-size: 16px;
+    margin-left: 10%;
+    top: -210px;
+    width: 34%;
+    text-align: justify;
+    color: white;
+  }
+
+  .technologies {
+    position: relative;
+    font-size: 16px;
+    margin-left: 10%;
+    top: -130px;
+    width: 34%;
+    text-align: justify;
+    color: white;
+  }
+}
