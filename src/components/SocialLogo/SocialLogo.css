@@ -135,7 +135,7 @@
 }
 
 /*IPhone X*/
-@media screen and (max-width: 375px) and (max-height: 812px) {
+@media screen and (max-width: 428px) and (max-height: 926px) {
   .social-div {
     position: relative;
     background-color: white;

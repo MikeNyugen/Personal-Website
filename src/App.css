@@ -41,3 +41,24 @@ body {
  
   }
 }
+
+/*IPhone X*/
+@media screen and (max-width: 428px) and (max-height: 926px) {
+  .top {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    bottom: 15px;
+    width: 200px;
+    color: white;
+  }
+
+  .footer-div {
+    position:relative;
+    min-height: 140px;
+    padding-top: 2px;
+    top: 10.5vh;
+  }
+}

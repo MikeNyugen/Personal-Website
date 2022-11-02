@@ -41,11 +41,11 @@
 }
 
 /*IPhone X*/
-@media screen and (max-width: 375px) and (max-height: 812px) {
+@media screen and (max-width: 428px) and (max-height: 926px) {
   .project-image-div {
     width: 300px;
     height: 151px;
-    margin-left: 6.3%;
+    margin-left: 7%;
     margin-top: 5%;
   }
   
@@ -53,6 +53,11 @@
     border-radius: 10px;
     width: 300px;
     height: 151px;
+  }
+
+  .caption {
+    color: white;
+    font-size: 13px;
   }
   
 }

@@ -134,14 +134,14 @@ a:hover {
 }
 
 /*IPhone X*/
-@media screen and (max-width: 375px) and (max-height: 812px) {
+@media screen and (max-width: 428px) and (max-height: 926px) {
   .introduction-div {
     min-width: 100vw;
     min-height: 100vh;
     margin-bottom: 0px;
   }
   .name {
-    font-size: 50px;
+    font-size: 41px;
     margin-bottom: -1%;
     min-width: 10%;;
   }
@@ -152,7 +152,7 @@ a:hover {
 
   .profile-description {
     font-size: 20px;
-    max-width: 300px;
+    max-width: 310px;
     top: 15px;
   }
 
