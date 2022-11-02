@@ -30,9 +30,8 @@ const SlideShow = ({ imageList }) => {
           <div key={index}>
             <img
               className="project-image"
-              width="700px"
-              height="390px"
-              src={fadeImage.url}
+              
+              src={require(`../../Images/images/${fadeImage.url}`)}
               alt="image"
             />
             <span className="caption">{fadeImage.caption}</span>

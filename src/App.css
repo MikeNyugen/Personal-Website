@@ -1,9 +1,11 @@
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
 }
 
 body {
   font-family: "Manrope";
+  position: absolute;
 }
 
 .top {
@@ -24,10 +26,19 @@ body {
 
 .footer-div {
   position:relative;
-  height: 199px;
+  min-height: 199px;
   padding-top: 2px;
   background: #396afc;
   background: -webkit-linear-gradient(to left, #2948ff, #396afc);
   background: linear-gradient(to left, #2948ff, #396afc);
-  min-width: 1680px
+  min-width: 1680px;
+  top: 10.5vh;
+}
+
+
+/*Ipad Pro*/
+@media screen and (max-width: 1024px) and (max-height: 1366px)  {
+  .footer-div {
+    min-width: 500px;
+  }
 }

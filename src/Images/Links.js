@@ -1,4 +1,5 @@
 export const bankseeImages = [
+  /*
   {
     url: "https://drive.google.com/uc?export=view&id=14LzMMU9VaLugTcT-ROYmIlqlvq33I5oQ",
     caption: "Truelayer bank login gateway"
@@ -7,30 +8,31 @@ export const bankseeImages = [
     url: "https://drive.google.com/uc?export=view&id=1iq-2jt3i6rlEq-R93iAICy21JLeBLFll",
     caption: "Truelayer user authentication"
   },
+  */
 ];
 
 export const ethicalImages = [
   {
-    url: "https://drive.google.com/uc?export=view&id=1FqxdFnoBxPGAFujTEay-Yf0hXG0cIkeU",
-    caption: "Landing page"
+    url: "ethical-review-1.png",
+    caption: "Landing page",
   },
 ];
 
 export const deadImages = [
   {
-    url: "https://drive.google.com/uc?export=view&id=13WejYS6Lydrt7m4WBzAdV58OdwwUhjDY",
+    url: "spread-the-dead-1.png",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1wkD0VCWPJEFkUJUoNfKdLrcLAE4bLY-V",
+    url: "spread-the-dead.gif",
   },
 ];
 
 export const codeImages = [
   {
-    url: "https://drive.google.com/uc?export=view&id=1SoxN1I94Q9UUK6m20B6Pkm6lADSXimsQ",
+    url: "linear-codes-1.png",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=19-QfqkLTXCNl59HhndTpd4ENKtdeiFTO",
+    url: "linear-codes-2.png",
   },
 ];
 
@@ -45,7 +47,7 @@ export const bankseeLogoList = [
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
-    alt: ".NET Core logo",
+    alt: ".NET core logo",
   },
   {
     src: "https://avatars.githubusercontent.com/u/21106665?s=200&v=4",
