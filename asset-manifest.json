@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.88732090.css",
-    "main.js": "/static/js/main.ec0fb953.js",
+    "main.css": "/static/css/main.dcb33924.css",
+    "main.js": "/static/js/main.b0c7cc39.js",
+    "static/media/spread-the-dead.gif": "/static/media/spread-the-dead.d0d2fa102a8979a3e8e3.gif",
+    "static/media/linear-codes-1.png": "/static/media/linear-codes-1.93ff02e4cd82c4ef3ead.png",
+    "static/media/linear-codes-2.png": "/static/media/linear-codes-2.64b269fcafa9ad54931c.png",
+    "static/media/spread-the-dead-1.png": "/static/media/spread-the-dead-1.49971e844e04241fa753.png",
+    "static/media/ethical-review-1.png": "/static/media/ethical-review-1.511a2061039011873418.png",
     "index.html": "/index.html",
-    "main.88732090.css.map": "/static/css/main.88732090.css.map",
-    "main.ec0fb953.js.map": "/static/js/main.ec0fb953.js.map"
+    "main.dcb33924.css.map": "/static/css/main.dcb33924.css.map",
+    "main.b0c7cc39.js.map": "/static/js/main.b0c7cc39.js.map"
   },
   "entrypoints": [
-    "static/css/main.88732090.css",
-    "static/js/main.ec0fb953.js"
+    "static/css/main.dcb33924.css",
+    "static/js/main.b0c7cc39.js"
   ]
 }
