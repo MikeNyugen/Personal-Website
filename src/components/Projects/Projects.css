@@ -206,7 +206,7 @@ li {
     position: relative;
     font-size: 16px;
     margin-left: 55%;
-    top: -135px;
+    top: -160px;
     width: 34%;
     text-align: justify;
     color: white;
@@ -251,72 +251,72 @@ li {
   }
 
   .banksee {
-    height: 600px;
+    height: 760px;
     width: 350px;
     margin-bottom: 10vh;
   }
 
   .ethical-review {
-    height: 600px;
+    height: 760px;
     width: 350px;
     margin-bottom: 10vh;
   }
 
   .spread-the-dead {
-    height: 600px;
+    height: 760px;
     width: 350px;
     margin-bottom: 10vh;
   }
 
   .linear-codes {
-    height: 600px;
+    height: 760px;
     width: 350px;
   }
 
   .project-summary {
-    font-size: 11px;
-    margin-left: 10%;
+    font-size: 15px;
+    margin-left: 5%;
     bottom: 10px;
-    width: 80%;
-    text-align: left;
+    width: 90%;
+    text-align: justify;
     color: white;
   }
 
   .project-summary2 {
-    font-size: 11px;
-    margin-left: 10%;
+    font-size: 15px;
+    margin-left: 5%;
     bottom: 10px;
-    width: 80%;
+    width: 90%;
     text-align: justify;
     color: black;
   }
 
   .key-features {
     position: relative;
-    font-size: 11px;
-    margin-left: 10%;
+    font-size: 14px;
+    margin-left: 5%;
     top: -10px;
-    width: 80%;
+    width: 90%;
     text-align: left;
     color: white;
   }
 
   .banksee-technologies {
     position: relative;
-    font-size: 11px;
-    margin-left: 10%;
+    font-size: 14px;
+    margin-left: 5%;
     top: -10px;
-    width: 80%;
+    width: 90%;
     text-align: justify;
     color: white;
   }
 
   .technologies {
     position: relative;
-    font-size: 11px;
-    margin-left: 10%;
+    font-size: 14px;
+    margin-left: 5%;
     top: -10px;
-    width: 80%;
+    width: 90%;
     text-align: justify;
     color: white;
   }

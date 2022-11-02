@@ -10,7 +10,7 @@ const Introduction = () => {
           Nguyen.
         </a>
       </h1>
-      <h2 className="job-title">&#128187; Full-stack software engineer</h2>
+      <h2 className="job-title">Full-stack software engineer</h2>
       <div className="profile-description">
         <p>
           Hey I’m Mike, I recently graduated from the{" "}

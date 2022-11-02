@@ -61,10 +61,6 @@ export const ethicalLogoList = [
     alt: "React logo",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
-    alt: "GraphQL logo",
-  },
-  {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     alt: "Typescript logo",
   },
