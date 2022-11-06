@@ -50,20 +50,20 @@ h4 {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #bebebe;
+  background-color: #838996;
 }
 
 .project-summary {
   position: relative;
   font-size: 19px;
   margin-left: 4%;
-  bottom: 75%;
+  bottom: 78%;
   width: 34%;
   text-align: justify;
   color: white;
 }
 
-.key-features {
+.banksee-key-features {
   position: relative;
   font-size: 19px;
   margin-left: 4%;
@@ -73,11 +73,31 @@ h4 {
   color: white;
 }
 
-.technologies {
+.ethical-key-features {
   position: relative;
   font-size: 19px;
   margin-left: 4%;
-  bottom: 75%;
+  bottom: 78%;
+  width: 34%;
+  text-align: justify;
+  color: white;
+}
+
+.dead-key-features {
+  position: relative;
+  font-size: 19px;
+  margin-left: 4%;
+  bottom: 78%;
+  width: 34%;
+  text-align: justify;
+  color: white;
+}
+
+.code-key-features {
+  position: relative;
+  font-size: 19px;
+  margin-left: 4%;
+  bottom: 78%;
   width: 34%;
   text-align: justify;
   color: white;
@@ -87,25 +107,40 @@ h4 {
   position: relative;
   font-size: 19px;
   margin-left: 4%;
-  bottom: 75%;
+  bottom: 78%;
   width: 34%;
   text-align: justify;
   color: white;
 }
 
-
-.project-summary2 {
+.ethical-technologies {
   position: relative;
   font-size: 19px;
   margin-left: 4%;
-  bottom: 75%;
+  bottom: 78%;
   width: 34%;
   text-align: justify;
-  color: black;
+  color: white;
 }
 
-.features {
-  font-size: 18px;
+.dead-technologies {
+  position: relative;
+  font-size: 19px;
+  margin-left: 4%;
+  bottom: 78%;
+  width: 34%;
+  text-align: justify;
+  color: white;
+}
+
+.code-technologies {
+  position: relative;
+  font-size: 19px;
+  margin-left: 4%;
+  bottom: 78%;
+  width: 34%;
+  text-align: justify;
+  color: white;
 }
 
 .projects-heading {
@@ -119,9 +154,7 @@ h4 {
   color: white;
 }
 
-.project-title2 {
-  font-size: 40px;
-  padding-top: 2vh;
+.project-title:hover {
   color: black;
 }
 
@@ -145,7 +178,7 @@ li {
 }
 
 /*Ipad Pro*/
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
+@media screen and (max-width: 1024px) {
   .projects-heading {
     font-size: 50px;
   }
@@ -154,34 +187,129 @@ li {
     font-size: 30px;
   }
 
-  .project-title2 {
-    font-size: 30px;
-    padding-top: 2vh;
-    color: black;
-  }
-
   .banksee {
     text-align: center;
-    height: 900px;
+    height: 970px;
     width: 900px;
     margin-bottom: 10vh;
   }
 
   .ethical-review {
-    height: 900px;
+    height: 1000px;
     width: 900px;
     margin-bottom: 10vh;
   }
 
   .spread-the-dead {
-    height: 900px;
+    height: 1000px;
     width: 900px;
     margin-bottom: 10vh;
   }
 
   .linear-codes {
-    height: 900px;
+    height: 1000px;
     width: 900px;
+  }
+
+  .project-summary {
+    font-size: 17px;
+    margin-left: 10%;
+    bottom: 10px;
+    width: 34%;
+  }
+
+  .banksee-key-features {
+    font-size: 17px;
+    margin-left: 55%;
+    top: -165px;
+    width: 34%;
+  }
+
+  .ethical-key-features {
+    font-size: 17px;
+    margin-left: 55%;
+    top: -250px;
+    width: 34%;
+  }
+
+  .dead-key-features {
+    font-size: 17px;
+    margin-left: 55%;
+    top: -225px;
+    width: 34%;
+  }
+
+  .code-key-features {
+    font-size: 17px;
+    margin-left: 55%;
+    top: -275px;
+    width: 34%;
+  }
+
+  .banksee-technologies {
+    font-size: 16px;
+    margin-left: 10%;
+    top: -210px;
+    width: 34%;
+  }
+
+  .ethical-technologies {
+    font-size: 16px;
+    margin-left: 10%;
+    top: -240px;
+    width: 34%;
+  }
+
+  .dead-technologies {
+    font-size: 16px;
+    margin-left: 10%;
+    top: -180px;
+    width: 34%;
+  }
+
+  .code-technologies {
+    position: relative;
+    font-size: 16px;
+    margin-left: 10%;
+    top: -230px;
+    width: 34%;
+    text-align: justify;
+    color: white;
+  }
+}
+
+/*Ipad Air*/
+@media screen and (max-width: 820px) and (max-height: 1180px) {
+  .projects-heading {
+    font-size: 50px;
+  }
+
+  .project-title {
+    font-size: 30px;
+  }
+
+  .banksee {
+    text-align: center;
+    height: 1000px;
+    width: 700px;
+    margin-bottom: 10vh;
+  }
+
+  .ethical-review {
+    height: 1000px;
+    width: 700px;
+    margin-bottom: 10vh;
+  }
+
+  .spread-the-dead {
+    height: 1000px;
+    width: 700px;
+    margin-bottom: 10vh;
+  }
+
+  .linear-codes {
+    height: 1000px;
+    width: 700px;
   }
 
   .project-summary {
@@ -189,53 +317,88 @@ li {
     margin-left: 10%;
     bottom: 10px;
     width: 34%;
-    text-align: justify;
-    color: white;
-  }
-
-  .project-summary2 {
-    font-size: 16px;
-    margin-left: 10%;
-    bottom: 10px;
-    width: 37%;
-    text-align: justify;
-    color: white;
   }
 
   .key-features {
-    position: relative;
     font-size: 16px;
     margin-left: 55%;
     top: -160px;
     width: 34%;
-    text-align: justify;
-    color: white;
+  }
+
+  .banksee-key-features {
+    font-size: 16px;
+    margin-left: 55%;
+    top: -160px;
+    width: 34%;
+  }
+
+  .ethical-key-features {
+    font-size: 16px;
+    margin-left: 55%;
+    top: -245px;
+    width: 34%;
+  }
+
+  .dead-key-features {
+    font-size: 16px;
+    margin-left: 55%;
+    top: -245px;
+    width: 34%;
+  }
+
+  .code-key-features {
+    font-size: 16px;
+    margin-left: 55%;
+    top: -290px;
+    width: 34%;
   }
 
   .banksee-technologies {
-    position: relative;
     font-size: 16px;
     margin-left: 10%;
     top: -210px;
     width: 34%;
-    text-align: justify;
-    color: white;
   }
 
   .technologies {
-    position: relative;
     font-size: 16px;
     margin-left: 10%;
     top: -130px;
     width: 34%;
-    text-align: justify;
-    color: white;
+  }
+
+  .banksee-technologies {
+    font-size: 16px;
+    margin-left: 10%;
+    top: -130px;
+    width: 34%;
+  }
+
+  .ethical-technologies {
+    font-size: 16px;
+    margin-left: 10%;
+    top: -250px;
+    width: 34%;
+  }
+
+  .dead-technologies {
+    font-size: 16px;
+    margin-left: 10%;
+    top: -210px;
+    width: 34%;
+  }
+
+  .code-technologies {
+    font-size: 16px;
+    margin-left: 10%;
+    top: -210px;
+    width: 34%;
   }
 }
 
-
 /*IPhone X*/
-@media screen and (max-width: 428px) and (max-height: 926px) {
+@media screen and (max-width: 428px) {
   .projects-heading {
     font-size: 40px;
   }
@@ -244,32 +407,26 @@ li {
     font-size: 18px;
   }
 
-  .project-title2 {
-    font-size: 18px;
-    padding-top: 2vh;
-    color: black;
-  }
-
   .banksee {
-    height: 760px;
+    height: 800px;
     width: 350px;
     margin-bottom: 10vh;
   }
 
   .ethical-review {
-    height: 760px;
+    height: 800px;
     width: 350px;
     margin-bottom: 10vh;
   }
 
   .spread-the-dead {
-    height: 760px;
+    height: 800px;
     width: 350px;
     margin-bottom: 10vh;
   }
 
   .linear-codes {
-    height: 760px;
+    height: 800px;
     width: 350px;
   }
 
@@ -282,43 +439,71 @@ li {
     color: white;
   }
 
-  .project-summary2 {
-    font-size: 15px;
-    margin-left: 5%;
-    bottom: 10px;
-    width: 90%;
-    text-align: justify;
-    color: black;
-  }
-
-  .key-features {
-    position: relative;
+  .banksee-key-features {
     font-size: 14px;
     margin-left: 5%;
     top: -10px;
     width: 90%;
     text-align: left;
-    color: white;
+  }
+
+  .ethical-key-features {
+    font-size: 14px;
+    margin-left: 5%;
+    top: -15px;
+    width: 90%;
+    text-align: left;
+  }
+
+  .dead-key-features {
+    font-size: 14px;
+    margin-left: 5%;
+    top: -10px;
+    width: 90%;
+    text-align: left;
+  }
+
+  .code-key-features {
+    font-size: 14px;
+    margin-left: 5%;
+    top: -10px;
+    width: 90%;
+    text-align: left;
   }
 
   .banksee-technologies {
-    position: relative;
     font-size: 14px;
     margin-left: 5%;
     top: -10px;
     width: 90%;
-    text-align: justify;
-    color: white;
+  }
+
+  .ethical-technologies {
+    font-size: 14px;
+    margin-left: 5%;
+    top: -25px;
+    width: 90%;
+  }
+
+  .dead-technologies {
+    font-size: 14px;
+    margin-left: 5%;
+    top: -10px;
+    width: 90%;
+  }
+
+  .code-technologies {
+    font-size: 14px;
+    margin-left: 5%;
+    top: -10px;
+    width: 90%;
   }
 
   .technologies {
-    position: relative;
     font-size: 14px;
     margin-left: 5%;
     top: -10px;
     width: 90%;
-    text-align: justify;
-    color: white;
   }
 
   .slide-button-left {
@@ -328,7 +513,7 @@ li {
     color: white;
     margin-left: 8.5px;
   }
-  
+
   .slide-button-right {
     transform: scale(1.1);
     background: none;

@@ -13,33 +13,53 @@ export const bankseeImages = [
 
 export const ethicalImages = [
   {
-    url: "ethical-review-1.png",
-    caption: "Landing page",
+    url: "ethical-4.png",
+    caption: "Student home page",
+  },
+  {
+    url: "ethical-3.png",
+    caption: "Application history",
+  },
+  {
+    url: "ethical-5.png",
+    caption: "Preliminary questionnaire",
+  },
+  {
+    url: "ethical-2.png",
+    caption: "Login page",
   },
 ];
 
 export const deadImages = [
   {
     url: "spread-the-dead-1.png",
+    caption: "Start screen"
   },
   {
     url: "spread-the-dead.gif",
+    caption: "Gameplay"
   },
 ];
 
 export const codeImages = [
   {
-    url: "linear-codes-1.png",
+    url: "linear-code-1.gif",
+    caption: "Example of the conversion process"
   },
   {
-    url: "linear-codes-2.png",
+    url: "linear-code-2.gif",
+    caption: "Rearranging nodes and removing connections"
+  },
+  {
+    url: "linear-code-3.png",
+    caption: "Side panel displaying the parity-check matrix and the code words"
   },
 ];
 
 export const bankseeLogoList = [
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
-    alt: "Svelte logo",
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    alt: "React logo",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",

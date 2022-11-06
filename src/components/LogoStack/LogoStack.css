@@ -3,7 +3,7 @@
   left: 3.3%;
   padding: 5px;
   border-radius: 5px;
-  top: 85px;
+  top: 35px;
 }
 
 .tech-logo {
@@ -13,62 +13,29 @@
   display: flex;
 }
 
-.postgres-logo {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  left: 105px;
-}
-
-.javafx-logo {
-  position: relative;
-  width: 110px;
-  height: 40px;
-  display: flex;
-}
-
-.github {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  left: 82%;
-}
-
-.github2 {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  left: 101%;
-}
-
-.source-code {
-  font-size: 22px;
-  font-weight: bold;
-  color: white;
-  position: relative;
-  display: flex;
-  left: 50%;
-}
-
-.source-code2 {
-  font-size: 22px;
-  font-weight: bold;
-  color: white;
-  position: relative;
-  display: flex;
-  left: 62%;
-}
-
 /*Ipad Pro*/
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
+@media screen and (max-width: 1024px) {
   .logo-stack {
     left: 9%;
     padding: 5px;
     border-radius: 5px;
-    top: 330px;
+    top: 420px;
+  }
+
+  .tech-logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+}
+
+/*Ipad Air*/
+@media screen and (max-width: 820px) and (max-height: 1180px) {
+  .logo-stack {
+    left: 9%;
+    padding: 5px;
+    border-radius: 5px;
+    top: 435px;
   }
 
   .tech-logo {
@@ -79,12 +46,12 @@
 }
 
 /*IPhone X*/
-@media screen and (max-width: 428px) and (max-height: 926px) {
+@media screen and (max-width: 428px) {
   .logo-stack {
     left: 3%;
     padding: 5px;
     border-radius: 5px;
-    top: 450px;
+    top: 490px;
   }
 
   .tech-logo {

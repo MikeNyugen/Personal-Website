@@ -17,7 +17,7 @@ const Projects = () => {
       <h1 id="projects" className="projects-heading">
         Projects
       </h1>
-      {true ? (
+      {false ? (
         <div className="banksee">
           <h2 className="project-title">BankSee (In progress)</h2>
           <SlideShow imageList={deadImages} />
@@ -41,25 +41,25 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className="key-features">
+          <div className="banksee-key-features">
             <h4>Key Features:</h4>
             <ul>
               <li>
                 Log into any bank account to view balance and transactions
-                history
+                history.
               </li>
-              <li>View top places where users have spent money</li>
+              <li>View top places where users have spent money.</li>
               <li>
-                View where you have spent your money on an interactive map
+                View where you have spent your money on an interactive map.
               </li>
             </ul>
           </div>
 
           <div className="banksee-technologies">
             <h4>Technologies:</h4>
-            <span>Front-end: Svelte, TypeScript</span>
+            <span>Front-end: React, TypeScript</span>
             <br></br>
-            <span>Back-end: Gin, Go, TrueLayer</span>
+            <span>Back-end: .NET Core, C#, TrueLayer</span>
           </div>
         </div>
       ) : (
@@ -73,22 +73,35 @@ const Projects = () => {
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
-            Implemented a bespoke web application to streamline the ethical
-            review process at the University of St Andrews.
+            Implemented a bespoke web application to streamline the
+            <a
+              href="https://www.st-andrews.ac.uk/research/integrity-ethics/humans/applications/ethical-review/"
+              target="_blank"
+            >
+              <strong> ethical application process </strong>
+            </a>
+            at the University of St Andrews. Worked closely with staff members
+            on the ethics committee to develop and test system requirements.
           </p>
         </div>
 
-        <div className="key-features">
+        <div className="ethical-key-features">
           <h4>Key Features:</h4>
           <ul>
-            <li>Automated the process ethical applciation process</li>
-            <li>File upload and download</li>
+            <li>
+              Automated the ethical application process for students, staff
+              members, and administrators.
+            </li>
+            <li>
+              Users can view the history of an application including the files,
+              comments, and feedback.
+            </li>
           </ul>
         </div>
 
-        <div className="technologies">
+        <div className="ethical-technologies">
           <h4>Technologies:</h4>
-          <span>Front-end: React, GraphQL TypeScript</span>
+          <span>Front-end: React, TypeScript</span>
           <br></br>
           <span>Back-end: Spring Boot, Java, PostgreSQL</span>
         </div>
@@ -101,50 +114,90 @@ const Projects = () => {
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
-            Implemented an application to streamline the ethical review process
-            at the University of St Andrews.
+            A zombie-themed real-time stategy game similar to{" "}
+            <a
+              href="https://supercell.com/en/games/clashofclans/"
+              target="_blank"
+            >
+              {" "}
+              <strong>Clash of Clans </strong>
+            </a>
+            developed using{" "}
+            <a href="https://processing.org/" target="_blank">
+              <strong>Processing</strong>
+            </a>
+            . The game engine including the artificial intelligence and the
+            camera system was implemented from scratch.
           </p>
         </div>
 
-        <div className="key-features">
+        <div className="dead-key-features">
           <h4>Key Features:</h4>
           <ul>
-            <li>Automated the process ethical applciation process</li>
-            <li>File upload and download</li>
+            <li>Path planning implemented using the A* algorithm.</li>
+            <li>Mini-map displaying the movement of all units.</li>
           </ul>
         </div>
 
-        <div className="technologies">
+        <div className="dead-technologies">
           <h4>Technologies:</h4>
           <p>Processing (Java)</p>
         </div>
       </div>
 
       <div className="linear-codes">
-        <h2 className="project-title2">Linear Codes from Bipartite Graphs</h2>
+        <a
+          href="https://github.com/MikeNyugen/Tanner-Graphs-to-Linear-Codes"
+          target="_blank"
+        >
+          {" "}
+          <h2 className="project-title">Linear Codes from Bipartite Graphs</h2>
+        </a>
+
         <SlideShow imageList={codeImages} />
         <LogoStack logoList={codeLogoList} codeAvailable={false} />
-        <div className="project-summary2">
+        <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
-            An interactive application to derive linear error-correcting codes
-            given a user-generated parity-check graph. The purpose of the tool
-            was to provide an interactive learning tool for students at the
-            University of York enrolled in the information theory module.
+            An interactive application to derive{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Error_correction_code"
+              target="_blank"
+            >
+              <strong>linear error-correcting codes </strong>
+            </a>
+            given a user-generated parity-check graph (also known as{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Tanner_graph"
+              target="_blank"
+            >
+              <strong>Tanner graphs</strong>
+            </a>
+            ). The purpose of the tool was to provide an interactive learning
+            tool for students at the University of York enrolled in the
+            information theory module.
           </p>
         </div>
 
-        <div className="key-features">
+        <div className="code-key-features">
           <h4>Key Features:</h4>
           <ul>
-            <li>Automated the process ethical applciation process</li>
-            <li>File upload and download</li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Code" target="_blank">
+                <strong>Code words</strong>
+              </a>{" "}
+              can be calculated automatically from the bipartite graph.
+            </li>
+            <li>
+              Nodes can be dragged and rearranged with the connections
+              maintained.
+            </li>
           </ul>
         </div>
 
-        <div className="technologies">
+        <div className="code-technologies">
           <h4>Technologies:</h4>
-          <p>JavaFx, Java, Maven</p>
+          <p>JavaFX, Java</p>
         </div>
       </div>
     </>

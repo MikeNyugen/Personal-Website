@@ -21,8 +21,8 @@ const SlideShow = ({ imageList }) => {
   return (
     <div className="project-image-div">
       <Fade
-        duration={10000}
-        transitionDuration={500}
+        duration={10500}
+        transitionDuration={300}
         indicators={true}
         {...properties}
       >
@@ -34,6 +34,7 @@ const SlideShow = ({ imageList }) => {
               src={require(`../../Images/images/${fadeImage.url}`)}
               alt="image"
             />
+            <br></br>
             <span className="caption">{fadeImage.caption}</span>
           </div>
         ))}
