@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5a7586b.css",
-    "main.js": "/static/js/main.4638dc01.js",
+    "main.css": "/static/css/main.5550dd55.css",
+    "main.js": "/static/js/main.85a34b8f.js",
     "static/media/spread-the-dead.gif": "/static/media/spread-the-dead.d0d2fa102a8979a3e8e3.gif",
-    "static/media/ethical-1.gif": "/static/media/ethical-1.beb81407626aa5bdf5de.gif",
     "static/media/linear-code-2.gif": "/static/media/linear-code-2.ace523981f53ff78d9d5.gif",
     "static/media/linear-code-3.png": "/static/media/linear-code-3.6b636e0c042c8492079f.png",
-    "static/media/ethical-2.gif": "/static/media/ethical-2.e33308c006e2d4addf3b.gif",
     "static/media/ethical-4.png": "/static/media/ethical-4.34759dc0c7bb60c09cef.png",
     "static/media/ethical-5.png": "/static/media/ethical-5.f36be3575f3289e9b5af.png",
     "static/media/linear-code-1.gif": "/static/media/linear-code-1.52e328e395308689cf19.gif",
     "static/media/ethical-3.png": "/static/media/ethical-3.dea2141d47728a95687c.png",
     "static/media/spread-the-dead-1.png": "/static/media/spread-the-dead-1.49971e844e04241fa753.png",
-    "static/media/ethical-review-1.png": "/static/media/ethical-review-1.511a2061039011873418.png",
     "static/media/ethical-2.png": "/static/media/ethical-2.2251cbc1811996b0a549.png",
     "index.html": "/index.html",
-    "main.a5a7586b.css.map": "/static/css/main.a5a7586b.css.map",
-    "main.4638dc01.js.map": "/static/js/main.4638dc01.js.map"
+    "main.5550dd55.css.map": "/static/css/main.5550dd55.css.map",
+    "main.85a34b8f.js.map": "/static/js/main.85a34b8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5a7586b.css",
-    "static/js/main.4638dc01.js"
+    "static/css/main.5550dd55.css",
+    "static/js/main.85a34b8f.js"
   ]
 }
