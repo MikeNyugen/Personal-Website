@@ -19,7 +19,7 @@ const properties = {
 
 const SlideShow = ({ imageList }) => {
   return (
-    <div className="project-image-div">
+    <div className="project-image-div" data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
       <Fade
         duration={10500}
         transitionDuration={300}

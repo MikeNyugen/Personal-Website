@@ -33,26 +33,38 @@ export const ethicalImages = [
 export const deadImages = [
   {
     url: "spread-the-dead-1.png",
-    caption: "Start screen"
+    caption: "Start screen",
   },
   {
     url: "spread-the-dead.gif",
-    caption: "Gameplay"
+    caption: "Gameplay",
+  },
+  {
+    url: "spread-the-dead-4.gif",
+    caption: "Gameplay",
+  },
+  {
+    url: "spread-the-dead-2.gif",
+    caption: "Unit Selection",
+  },
+  {
+    url: "spread-the-dead-3.gif",
+    caption: "Gameplay",
   },
 ];
 
 export const codeImages = [
   {
     url: "linear-code-1.gif",
-    caption: "Example of the conversion process"
+    caption: "Example of the conversion process",
   },
   {
     url: "linear-code-2.gif",
-    caption: "Rearranging nodes and removing connections"
+    caption: "Rearranging nodes and removing connections",
   },
   {
     url: "linear-code-3.png",
-    caption: "Side panel displaying the parity-check matrix and the code words"
+    caption: "Side panel displaying the parity-check matrix and the code words",
   },
 ];
 

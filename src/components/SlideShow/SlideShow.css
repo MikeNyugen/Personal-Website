@@ -21,7 +21,7 @@
   .project-image-div {
     position: relative;
     width: 650px;
-    height: 310px;
+    height: 330px;
     margin-left: 40%;
     margin-top: 5%;
   }
@@ -29,7 +29,7 @@
   .project-image {
     border-radius: 10px;
     width: 580px;
-    height: 310px;
+    height: 330px;
   }
 }
 

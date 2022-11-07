@@ -8,10 +8,6 @@
   top: 110px;
   justify-content: center;
   margin: auto;
-
-  animation: fadeInAnimation ease 3.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .icon1 {
@@ -20,9 +16,6 @@
   padding-top: 1%;
   width: 80px;
   height: 80px;
-  animation: fadeInAnimation ease 3.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 
   animation-name: floating;
   animation-duration: 2.5s;
@@ -37,9 +30,6 @@
   padding-top: 1%;
   width: 80px;
   height: 80px;
-  animation: fadeInAnimation ease 3.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 
   animation-name: floating;
   animation-duration: 2.5s;
@@ -71,24 +61,12 @@
   padding-top: 1%;
   width: 80px;
   height: 80px;
-  animation: fadeInAnimation ease 3.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 
   animation-name: floating;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: -4s;
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 @keyframes floating {
@@ -141,7 +119,7 @@
     background-color: white;
     width: 320px;
     padding-top: 5px;
-    padding-bottom: 5px;;
+    padding-bottom: 5px;
     top: 25px;
   }
 

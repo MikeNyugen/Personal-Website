@@ -10,8 +10,11 @@ import { bankseeLogoList } from "../../Images/Links";
 import { ethicalLogoList } from "../../Images/Links";
 import { deadLogoList } from "../../Images/Links";
 import { codeLogoList } from "../../Images/Links";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Projects = () => {
+  AOS.init(); // Animation init
   return (
     <>
       <h1 id="projects" className="projects-heading">
@@ -66,11 +69,21 @@ const Projects = () => {
         <></>
       )}
 
-      <div className="ethical-review">
+      <div
+        className="ethical-review"
+        data-aos="zoom-in"
+        data-aos-duration="750"
+        data-aos-once="true"
+      >
         <h2 className="project-title">Ethical Review Management System</h2>
         <SlideShow imageList={ethicalImages} />
         <LogoStack logoList={ethicalLogoList} codeAvailable={true} />
-        <div className="project-summary">
+        <div
+          className="project-summary"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Project Summary:</h4>
           <p>
             Implemented a bespoke web application to streamline the
@@ -85,7 +98,12 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="ethical-key-features">
+        <div
+          className="ethical-key-features"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Key Features:</h4>
           <ul>
             <li>
@@ -99,7 +117,12 @@ const Projects = () => {
           </ul>
         </div>
 
-        <div className="ethical-technologies">
+        <div
+          className="ethical-technologies"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Technologies:</h4>
           <span>Front-end: React, TypeScript</span>
           <br></br>
@@ -107,11 +130,21 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="spread-the-dead">
+      <div
+        className="spread-the-dead"
+        data-aos="zoom-in"
+        data-aos-duration="750"
+        data-aos-once="true"
+      >
         <h2 className="project-title">Spread the Dead</h2>
         <SlideShow imageList={deadImages} />
         <LogoStack logoList={deadLogoList} codeAvailable={false} />
-        <div className="project-summary">
+        <div
+          className="project-summary"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Project Summary:</h4>
           <p>
             A zombie-themed real-time stategy game similar to{" "}
@@ -131,21 +164,45 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="dead-key-features">
+        <div
+          className="dead-key-features"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Key Features:</h4>
           <ul>
-            <li>Path planning implemented using the A* algorithm.</li>
+            <li>
+              Path planning implemented using the{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/A*_search_algorithm"
+                target="_blank"
+              >
+                <strong>A* algorithm</strong>
+              </a>
+              .
+            </li>
             <li>Mini-map displaying the movement of all units.</li>
           </ul>
         </div>
 
-        <div className="dead-technologies">
+        <div
+          className="dead-technologies"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Technologies:</h4>
           <p>Processing (Java)</p>
         </div>
       </div>
 
-      <div className="linear-codes">
+      <div
+        className="linear-codes"
+        data-aos="zoom-in"
+        data-aos-duration="750"
+        data-aos-once="true"
+      >
         <a
           href="https://github.com/MikeNyugen/Tanner-Graphs-to-Linear-Codes"
           target="_blank"
@@ -156,7 +213,12 @@ const Projects = () => {
 
         <SlideShow imageList={codeImages} />
         <LogoStack logoList={codeLogoList} codeAvailable={false} />
-        <div className="project-summary">
+        <div
+          className="project-summary"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Project Summary:</h4>
           <p>
             An interactive application to derive{" "}
@@ -179,7 +241,12 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="code-key-features">
+        <div
+          className="code-key-features"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Key Features:</h4>
           <ul>
             <li>
@@ -195,7 +262,12 @@ const Projects = () => {
           </ul>
         </div>
 
-        <div className="code-technologies">
+        <div
+          className="code-technologies"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <h4>Technologies:</h4>
           <p>JavaFX, Java</p>
         </div>
