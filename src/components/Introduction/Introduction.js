@@ -15,8 +15,8 @@ const Introduction = () => {
       </h2>
       <div
         className="profile-description"
-        data-aos="fade"
-        data-aos-duration="1500"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <p>
           Hey I’m Mike, I recently graduated from the

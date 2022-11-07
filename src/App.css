@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
-  max-width: 100%;
+  max-width: 100;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   position: relative;
   margin: auto;
   text-align: center;
-  justify-content: center;
   font-size: 30px;
   bottom: 15px;
   width: 200px;
@@ -26,7 +26,7 @@ body {
 
 .footer-div {
   position:relative;
-  height: 199px;
+  height: 200px;
   padding-top: 2px;
   background: #396afc;
   background: -webkit-linear-gradient(to left, #2948ff, #396afc);
@@ -39,8 +39,6 @@ body {
   height: 360px;
  }
 }
-
-
 
 
 /*Ipad Pro*/

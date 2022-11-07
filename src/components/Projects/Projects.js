@@ -81,7 +81,7 @@ const Projects = () => {
         <div
           className="project-summary"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Project Summary:</h4>
@@ -101,7 +101,7 @@ const Projects = () => {
         <div
           className="ethical-key-features"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Key Features:</h4>
@@ -120,7 +120,7 @@ const Projects = () => {
         <div
           className="ethical-technologies"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Technologies:</h4>
@@ -142,7 +142,7 @@ const Projects = () => {
         <div
           className="project-summary"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Project Summary:</h4>
@@ -167,7 +167,7 @@ const Projects = () => {
         <div
           className="dead-key-features"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Key Features:</h4>
@@ -189,7 +189,7 @@ const Projects = () => {
         <div
           className="dead-technologies"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Technologies:</h4>
@@ -216,7 +216,7 @@ const Projects = () => {
         <div
           className="project-summary"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Project Summary:</h4>
@@ -244,7 +244,7 @@ const Projects = () => {
         <div
           className="code-key-features"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Key Features:</h4>
@@ -265,7 +265,7 @@ const Projects = () => {
         <div
           className="code-technologies"
           data-aos="fade-right"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
           <h4>Technologies:</h4>

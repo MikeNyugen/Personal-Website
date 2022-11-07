@@ -90,8 +90,9 @@ a:hover {
   }
 }
 
+
 /*Ipad Pro*/
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
+@media screen and (max-width: 1024px) {
   .introduction-div {
     min-width: 100vw;
     min-height: 100vh;
@@ -125,6 +126,32 @@ a:hover {
   }
 }
 
+/*Ipad Air*/
+@media screen and (max-width: 820px) {
+  .name {
+    font-size: 70px;
+  }
+
+  .job-title {
+    font-size: 35px;
+  }
+
+  .profile-description {
+    font-size: 25px;
+  }
+
+  .down-arrow {
+    margin-top: 300px;
+    padding-bottom: 10px;
+  }
+
+  .down-arrow-svg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
 /*IPhone X*/
 @media screen and (max-width: 428px) and (max-height: 926px) {
   .introduction-div {
@@ -143,14 +170,14 @@ a:hover {
   }
 
   .profile-description {
-    font-size: 20px;
+    font-size: 16px;
     max-width: 310px;
     top: 5px;
   }
 
   .down-arrow {
     padding-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .down-arrow-svg {

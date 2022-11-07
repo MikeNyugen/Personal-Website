@@ -2,7 +2,7 @@ import SocialLogo from "../SocialLogo/SocialLogo";
 
 const SocialStack = () => {
   return (
-    <div className="social-div" data-aos="zoom-in" data-aos-duration="1000">
+    <div className="social-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
       <SocialLogo
         title="Github Repository"
         imageURL="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"

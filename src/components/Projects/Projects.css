@@ -349,7 +349,7 @@ li {
 }
 
 /*Ipad Air*/
-@media screen and (max-width: 820px) and (max-height: 1180px) {
+@media screen and (max-width: 820px) {
   .projects-heading {
     font-size: 50px;
   }
@@ -480,24 +480,31 @@ li {
   .banksee {
     height: 800px;
     width: 350px;
+
     margin-bottom: 10vh;
   }
 
   .ethical-review {
     height: 800px;
-    width: 350px;
+    width: 100%;
     margin-bottom: 10vh;
+    border-radius: 0px;
+    box-shadow: none;
   }
 
   .spread-the-dead {
     height: 800px;
-    width: 350px;
+    width: 100%;
     margin-bottom: 10vh;
+    border-radius: 0px;
+    box-shadow: none;
   }
 
   .linear-codes {
     height: 800px;
-    width: 350px;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
   }
 
   .project-summary {
