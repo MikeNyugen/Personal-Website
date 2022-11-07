@@ -13,6 +13,14 @@
   display: flex;
 }
 
+@media screen and (max-width: 1300px) {
+  .logo-stack {
+   top: 200px;
+    left: 4%;
+  }
+}
+
+
 /*Ipad Pro*/
 @media screen and (max-width: 1024px) {
   .logo-stack {
