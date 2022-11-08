@@ -4,13 +4,23 @@ import SocialStack from "../SocialStack/SocialStack";
 const Introduction = () => {
   return (
     <div className="introduction-div">
-      <h1 className="name" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+      <h1
+        className="name"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
         Hey I'm Mike{" "}
         <a href="https://www.youtube.com/watch?v=TGO6gQbm0v4" target="_blank">
           Nguyen.
         </a>
       </h1>
-      <h2 className="job-title" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+      <h2
+        className="job-title"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
         Full-stack software engineer
       </h2>
       <div
@@ -32,7 +42,12 @@ const Introduction = () => {
 
       <SocialStack />
 
-      <div className="down-arrow" data-aos="fade" data-aos-duration="2000" data-aos-once="true">
+      <div
+        className="down-arrow"
+        data-aos="fade"
+        data-aos-duration="2000"
+        data-aos-once="true"
+      >
         <a href="#projects">
           <svg
             xmlns="http://www.w3.org/2000/svg"

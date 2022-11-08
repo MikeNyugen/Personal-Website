@@ -3,6 +3,8 @@ import "react-slideshow-image/dist/styles.css";
 import { Fade } from "react-slideshow-image";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import "react-photo-view/dist/react-photo-view.css";
+import { PhotoProvider, PhotoView } from "react-photo-view";
 
 const properties = {
   prevArrow: (
@@ -19,26 +21,38 @@ const properties = {
 
 const SlideShow = ({ imageList }) => {
   return (
-    <div className="project-image-div" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-      <Fade
-        duration={10500}
-        transitionDuration={300}
-        indicators={true}
-        {...properties}
-      >
-        {imageList.map((fadeImage, index) => (
-          <div key={index}>
-            <img
-              className="project-image"
-              width={200}
+    <div
+      className="project-image-div"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <PhotoProvider>
+        <Fade
+          duration={10500}
+          transitionDuration={300}
+          indicators={true}
+          {...properties}
+        >
+          {imageList.map((fadeImage, index) => (
+            <PhotoView
+              key={index}
               src={require(`../../Images/images/${fadeImage.url}`)}
-              alt="image"
-            />
-            <br></br>
-            <span className="caption">{fadeImage.caption}</span>
-          </div>
-        ))}
-      </Fade>
+            >
+              <div key={index}>
+                <img
+                  className="project-image hvr-shrink"
+                  width={200}
+                  src={require(`../../Images/images/${fadeImage.url}`)}
+                  alt="image"
+                />
+                <br></br>
+                <span className="caption">{fadeImage.caption}</span>
+              </div>
+            </PhotoView>
+          ))}
+        </Fade>
+      </PhotoProvider>
     </div>
   );
 };

@@ -22,7 +22,7 @@ const SocialLogo = ({ title, imageURL, href, alt, cssClass }) => {
             color: "black",
             fontWeight: "bold",
             borderRadius: "10px",
-            textAlign: "center"
+            textAlign: "center",
           },
         },
       }}
