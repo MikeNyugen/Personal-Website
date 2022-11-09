@@ -16,7 +16,7 @@ import "aos/dist/aos.css";
 const Projects = () => {
   AOS.init(); // Animation init
   return (
-    <>
+    <div>
       <h1 id="projects" className="projects-heading">
         Projects
       </h1>
@@ -272,7 +272,7 @@ const Projects = () => {
           <p>JavaFX, Java</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

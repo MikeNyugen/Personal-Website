@@ -1,12 +1,16 @@
 html {
   scroll-behavior: smooth;
-  max-width: 100;
-  overflow-x: hidden;
+
 }
 
 body {
   font-family: "Manrope";
   position: absolute;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .top {
