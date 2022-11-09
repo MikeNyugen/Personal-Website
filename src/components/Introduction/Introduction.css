@@ -160,7 +160,6 @@ a:hover {
     min-width: 100vw;
     min-height: 100vh;
     margin-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
   }
   .name {
     font-size: 55px;
@@ -174,9 +173,9 @@ a:hover {
 
   .profile-description {
     font-size: 22px;
-    font-weight: bold;
-    max-width: 310px;
+    max-width: 87%;
     top: 5px;
+    text-align: justify;
   }
 
   .down-arrow {
