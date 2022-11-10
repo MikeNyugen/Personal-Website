@@ -78,12 +78,7 @@ const Projects = () => {
         <h2 className="project-title">Ethical Review Management System</h2>
         <SlideShow imageList={ethicalImages} />
         <LogoStack logoList={ethicalLogoList} codeAvailable={true} />
-        <div
-          className="project-summary"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
             Implemented a bespoke web application to streamline the
@@ -98,12 +93,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div
-          className="ethical-key-features"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="ethical-key-features">
           <h4>Key Features:</h4>
           <ul>
             <li>
@@ -117,12 +107,7 @@ const Projects = () => {
           </ul>
         </div>
 
-        <div
-          className="ethical-technologies"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="ethical-technologies">
           <h4>Technologies:</h4>
           <span>Front-end: React, TypeScript</span>
           <br></br>
@@ -139,12 +124,7 @@ const Projects = () => {
         <h2 className="project-title">Spread the Dead</h2>
         <SlideShow imageList={deadImages} />
         <LogoStack logoList={deadLogoList} codeAvailable={false} />
-        <div
-          className="project-summary"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
             A zombie-themed real-time stategy game similar to{" "}
@@ -164,12 +144,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div
-          className="dead-key-features"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="dead-key-features">
           <h4>Key Features:</h4>
           <ul>
             <li>
@@ -186,12 +161,7 @@ const Projects = () => {
           </ul>
         </div>
 
-        <div
-          className="dead-technologies"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="dead-technologies">
           <h4>Technologies:</h4>
           <p>Processing (Java)</p>
         </div>
@@ -213,12 +183,7 @@ const Projects = () => {
 
         <SlideShow imageList={codeImages} />
         <LogoStack logoList={codeLogoList} codeAvailable={false} />
-        <div
-          className="project-summary"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
             An interactive application to derive{" "}
@@ -241,12 +206,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div
-          className="code-key-features"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="code-key-features">
           <h4>Key Features:</h4>
           <ul>
             <li>
@@ -262,12 +222,7 @@ const Projects = () => {
           </ul>
         </div>
 
-        <div
-          className="code-technologies"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="code-technologies">
           <h4>Technologies:</h4>
           <p>JavaFX, Java</p>
         </div>
