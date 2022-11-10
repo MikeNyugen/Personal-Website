@@ -59,7 +59,7 @@
 }
 
 /*Ipad Air*/
-@media screen and (max-width: 820px) and (max-height: 1180px) {
+@media screen and (max-width: 900px) {
   .project-image-div {
     position: relative;
     margin: auto;
