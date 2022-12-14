@@ -1,14 +1,16 @@
 export const bankseeImages = [
-  /*
   {
-    url: "https://drive.google.com/uc?export=view&id=14LzMMU9VaLugTcT-ROYmIlqlvq33I5oQ",
-    caption: "Truelayer bank login gateway"
+    url: "banksee-2.png",
+    caption: "Figma prototype"
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1iq-2jt3i6rlEq-R93iAICy21JLeBLFll",
-    caption: "Truelayer user authentication"
+    url: "banksee-4.png",
+    caption: "Login page prototype"
   },
-  */
+  {
+    url: "banksee-3.png",
+    caption: "Figma prototype"
+  },
 ];
 
 export const ethicalImages = [
@@ -74,12 +76,20 @@ export const bankseeLogoList = [
     alt: "React logo",
   },
   {
+    src: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+    alt: "GraphQL logo",
+  },
+  {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     alt: "Typescript logo",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
-    alt: ".NET core logo",
+    src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+    alt: "Spring logo",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg",
+    alt: "Kotlin logo",
   },
   {
     src: "https://avatars.githubusercontent.com/u/21106665?s=200&v=4",
@@ -99,6 +109,10 @@ export const ethicalLogoList = [
   {
     src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
     alt: "Spring logo",
+  },
+  {
+    src: "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+    alt: "Java logo",
   },
   {
     src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",

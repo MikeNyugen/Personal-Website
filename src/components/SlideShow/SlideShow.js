@@ -19,36 +19,69 @@ const properties = {
   ),
 };
 
-const SlideShow = ({ imageList }) => {
+const SlideShow = ({ imageList, isWeb }) => {
   return (
-    <div className="project-image-div">
-      <PhotoProvider>
-        <Fade
-          duration={10500}
-          transitionDuration={300}
-          indicators={true}
-          {...properties}
-        >
-          {imageList.map((fadeImage, index) => (
-            <PhotoView
-              key={index}
-              src={require(`../../Images/images/${fadeImage.url}`)}
+    <>
+      {isWeb ? (
+        <div className="project-image-div">
+          <PhotoProvider>
+            <Fade
+              duration={10500}
+              transitionDuration={300}
+              indicators={true}
+              {...properties}
             >
-              <div key={index}>
-                <img
-                  className="project-image hvr-shrink"
-                  width={200}
+              {imageList.map((fadeImage, index) => (
+                <PhotoView
+                  key={index}
                   src={require(`../../Images/images/${fadeImage.url}`)}
-                  alt="image"
-                />
-                <br></br>
-                <span className="caption">{fadeImage.caption}</span>
-              </div>
-            </PhotoView>
-          ))}
-        </Fade>
-      </PhotoProvider>
-    </div>
+                >
+                  <div key={index}>
+                    <img
+                      className="project-image hvr-shrink"
+                      width={200}
+                      src={require(`../../Images/images/${fadeImage.url}`)}
+                      alt="image"
+                    />
+                    <br></br>
+                    <span className="caption">{fadeImage.caption}</span>
+                  </div>
+                </PhotoView>
+              ))}
+            </Fade>
+          </PhotoProvider>
+        </div>
+      ) : (
+        <div className="project-image-div2">
+          <PhotoProvider>
+            <Fade
+              duration={10500}
+              transitionDuration={300}
+              indicators={true}
+              {...properties}
+            >
+              {imageList.map((fadeImage, index) => (
+                <PhotoView
+                  key={index}
+                  src={require(`../../Images/images/${fadeImage.url}`)}
+                >
+                  <div key={index}>
+                    <img
+                      className="hvr-shrink"
+                      height={530}
+                      src={require(`../../Images/images/${fadeImage.url}`)}
+                      alt="image"
+                    />
+                    <br></br>
+                    <span className="caption">{fadeImage.caption}</span>
+                  </div>
+                </PhotoView>
+              ))}
+            </Fade>
+          </PhotoProvider>
+        </div>
+      )}
+    </>
   );
 };
 

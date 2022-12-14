@@ -17,7 +17,7 @@ h4 {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #db7093;
+  background-color:#d9688e;
 }
 
 .ethical-review {
@@ -68,11 +68,21 @@ h4 {
   color: white;
 }
 
+.project-summary3 {
+  position: relative;
+  font-size: 19px;
+  margin-left: 4%;
+  bottom: 78%;
+  width: 34%;
+  text-align: justify;
+  color: white;
+}
+
 .banksee-key-features {
   position: relative;
   font-size: 19px;
   margin-left: 4%;
-  bottom: 75%;
+  bottom: 78%;
   width: 34%;
   text-align: justify;
   color: white;
@@ -114,7 +124,7 @@ h4 {
   margin-left: 4%;
   bottom: 78%;
   width: 34%;
-  text-align: justify;
+  text-align: left;
   color: white;
 }
 
@@ -183,6 +193,11 @@ li {
 }
 
 @media screen and (max-width: 1300px) {
+  .banksee {
+    width: 1100px;
+    height: 730px;
+  }
+
   .ethical-review {
     width: 1100px;
     height: 730px;
@@ -203,6 +218,28 @@ li {
     margin-left: 5%;
     width: 30%;
     bottom: 59%;
+  }
+
+  .project-summary3 {
+    font-size: 17px;
+    margin-left: 5%;
+    width: 30%;
+    bottom: 75%;
+  }
+
+  .banksee-technologies {
+    width: 33%;
+    font-size: 17px;
+    margin-left: 5%;
+    bottom: 75%;
+  }
+
+  .banksee-key-features {
+    width: 30%;
+    font-size: 17px;
+    margin-left: 5%;
+    bottom: 75%;
+    text-align: left;
   }
 
   .ethical-key-features {
@@ -262,8 +299,7 @@ li {
   }
 
   .banksee {
-    text-align: center;
-    height: 970px;
+    height: 1000px;
     width: 900px;
     margin-bottom: 10vh;
   }
@@ -367,7 +403,6 @@ li {
   }
 
   .banksee {
-    text-align: center;
     height: 1000px;
     width: 700px;
     margin-bottom: 10vh;
@@ -486,17 +521,18 @@ li {
   }
 
   .banksee {
-    height: 800px;
-    width: 350px;
-
+    height: 750px;
+    width: 100%;
     margin-bottom: 10vh;
+    border-radius: 25px;
+    box-shadow: none;
   }
 
   .ethical-review {
     height: 750px;
     width: 100%;
     margin-bottom: 10vh;
-    border-radius: 0px;
+    border-radius: 25px;
     box-shadow: none;
   }
 
@@ -504,14 +540,14 @@ li {
     height: 750px;
     width: 100%;
     margin-bottom: 10vh;
-    border-radius: 0px;
+    border-radius: 25px;
     box-shadow: none;
   }
 
   .linear-codes {
     height: 750px;
     width: 100%;
-    border-radius: 0px;
+    border-radius: 25px;
     box-shadow: none;
   }
 

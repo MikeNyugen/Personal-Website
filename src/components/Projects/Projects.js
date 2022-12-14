@@ -20,12 +20,17 @@ const Projects = () => {
       <h1 id="projects" className="projects-heading">
         Projects
       </h1>
-      {false ? (
-        <div className="banksee">
+      {true ? (
+        <div
+          className="banksee"
+          data-aos="zoom-in"
+          data-aos-duration="750"
+          data-aos-once="true"
+        >
           <h2 className="project-title">BankSee (In progress)</h2>
-          <SlideShow imageList={deadImages} />
-          <LogoStack logoList={bankseeLogoList} codeAvailable={false} />
-          <div className="project-summary">
+          <SlideShow imageList={bankseeImages} isWeb={false} />
+          <LogoStack logoList={bankseeLogoList} isWeb={false} />
+          <div className="project-summary3">
             <h4>Project Summary:</h4>
             <p>
               A web application leveraging{" "}
@@ -40,7 +45,7 @@ const Projects = () => {
               <a href="https://truelayer.com/" target="_blank">
                 <strong>Truelayer</strong>
               </a>{" "}
-              as the open banking provider.
+              API's to securely connect to user bank accounts.
             </p>
           </div>
 
@@ -60,9 +65,9 @@ const Projects = () => {
 
           <div className="banksee-technologies">
             <h4>Technologies:</h4>
-            <span>Front-end: React, TypeScript</span>
+            <span>Front-end: React Native, GraphQL, TypeScript</span>
             <br></br>
-            <span>Back-end: .NET Core, C#, TrueLayer</span>
+            <span>Back-end: Spring Boot, Kotlin, TrueLayer</span>
           </div>
         </div>
       ) : (
@@ -76,8 +81,8 @@ const Projects = () => {
         data-aos-once="true"
       >
         <h2 className="project-title">Ethical Review Management System</h2>
-        <SlideShow imageList={ethicalImages} />
-        <LogoStack logoList={ethicalLogoList} codeAvailable={true} />
+        <SlideShow imageList={ethicalImages} isWeb={true} />
+        <LogoStack logoList={ethicalLogoList} isWeb={true} />
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
@@ -97,8 +102,8 @@ const Projects = () => {
           <h4>Key Features:</h4>
           <ul>
             <li>
-              Automated the ethical application process for students, staff
-              members, and administrators.
+              Automated the ethical application process for students, faculty,
+              and administrators.
             </li>
             <li>
               Users can view the history of an application including the files,
@@ -122,12 +127,12 @@ const Projects = () => {
         data-aos-once="true"
       >
         <h2 className="project-title">Spread the Dead</h2>
-        <SlideShow imageList={deadImages} />
-        <LogoStack logoList={deadLogoList} codeAvailable={false} />
+        <SlideShow imageList={deadImages} isWeb={true} />
+        <LogoStack logoList={deadLogoList} isWeb={true} />
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
-            A zombie-themed real-time stategy game similar to{" "}
+            A zombie-themed real-time strategy game similar to{" "}
             <a
               href="https://supercell.com/en/games/clashofclans/"
               target="_blank"
@@ -157,7 +162,7 @@ const Projects = () => {
               </a>
               .
             </li>
-            <li>Mini-map displaying the movement of all units.</li>
+            <li>Mini-map displaying the movement of all units in real-time.</li>
           </ul>
         </div>
 
@@ -181,8 +186,8 @@ const Projects = () => {
           <h2 className="project-title">Linear Codes from Bipartite Graphs</h2>
         </a>
 
-        <SlideShow imageList={codeImages} />
-        <LogoStack logoList={codeLogoList} codeAvailable={false} />
+        <SlideShow imageList={codeImages} isWeb={true} />
+        <LogoStack logoList={codeLogoList} isWeb={true} />
         <div className="project-summary">
           <h4>Project Summary:</h4>
           <p>
@@ -213,7 +218,7 @@ const Projects = () => {
               <a href="https://en.wikipedia.org/wiki/Code" target="_blank">
                 <strong>Code words</strong>
               </a>{" "}
-              can be calculated automatically from the bipartite graph.
+              can be automatically calculated using the bipartite graph.
             </li>
             <li>
               Nodes can be dragged and rearranged with the connections
