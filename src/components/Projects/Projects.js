@@ -10,11 +10,14 @@ import { bankseeLogoList } from "../../Images/Links";
 import { ethicalLogoList } from "../../Images/Links";
 import { deadLogoList } from "../../Images/Links";
 import { codeLogoList } from "../../Images/Links";
+import useWindowDimensions from "../WindowDimensions";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Projects = () => {
   AOS.init(); // Animation init
+  const { height, width } = useWindowDimensions();
+
   return (
     <div>
       <h1 id="projects" className="projects-heading">
@@ -28,20 +31,27 @@ const Projects = () => {
           data-aos-once="true"
         >
           <h2 className="project-title">BankSee (In progress)</h2>
-          <SlideShow imageList={bankseeImages} isWeb={false} />
+          {width > 428 ? <SlideShow imageList={bankseeImages} isWeb={false} /> : <></>}
           <LogoStack logoList={bankseeLogoList} isWeb={false} />
           <div className="project-summary3">
             <h4>Project Summary:</h4>
             <p>
-              A web application leveraging{" "}
+              An{" "}
               <a
                 href="https://www.gov.uk/government/publications/update-governance-of-open-banking/update-on-open-banking"
                 target="_blank"
               >
                 <strong>Open Banking </strong>
               </a>
-              to allow users to gain more insight into their banking habits.
-              Uses{" "}
+              powered, cross-platform mobile app that provides a financial
+              equivalent to Spotify's{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Spotify_Wrapped"
+                target="_blank"
+              >
+                <strong>Spotify Wrapped</strong>
+              </a>{" "}
+              feature. Uses{" "}
               <a href="https://truelayer.com/" target="_blank">
                 <strong>Truelayer</strong>
               </a>{" "}
@@ -53,19 +63,16 @@ const Projects = () => {
             <h4>Key Features:</h4>
             <ul>
               <li>
-                Log into any bank account to view balance and transactions
-                history.
+                View the merchants where you have spent the most money over the
+                past year.
               </li>
-              <li>View top places where users have spent money.</li>
-              <li>
-                View where you have spent your money on an interactive map.
-              </li>
+              <li>Log into any bank account supported by TrueLayer</li>
             </ul>
           </div>
 
           <div className="banksee-technologies">
             <h4>Technologies:</h4>
-            <span>Front-end: React Native, GraphQL, TypeScript</span>
+            <span>Front-end: React Native, TypeScript</span>
             <br></br>
             <span>Back-end: Spring Boot, Kotlin, TrueLayer</span>
           </div>

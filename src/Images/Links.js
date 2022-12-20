@@ -1,15 +1,15 @@
 export const bankseeImages = [
   {
-    url: "banksee-2.png",
-    caption: "Figma prototype"
+    url: "banksee-1.png",
+    caption: "Figma mockup",
   },
   {
-    url: "banksee-4.png",
-    caption: "Login page prototype"
+    url: "banksee-2.png",
+    caption: "Login page mockup",
   },
   {
     url: "banksee-3.png",
-    caption: "Figma prototype"
+    caption: "Figma mockup",
   },
 ];
 
@@ -74,10 +74,6 @@ export const bankseeLogoList = [
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     alt: "React logo",
-  },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
-    alt: "GraphQL logo",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",

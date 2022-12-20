@@ -52,17 +52,21 @@
 }
 
 /*Ipad Pro*/
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
-  .project-image-div {
-    position: relative;
-    margin: auto;
-  }
-
+@media screen and (max-width: 1024px) {
   .project-image-div {
     position: relative;
     width: 770px;
     height: 390px;
+    margin-left: 8%;
     margin-top: 5%;
+  }
+
+  .project-image-div2 {
+    position: relative;
+    width: 770px;
+    height: 390px;
+    margin-top: 5%;
+    margin-left: 7%;
   }
 
   .project-image {
@@ -76,14 +80,18 @@
 @media screen and (max-width: 900px) {
   .project-image-div {
     position: relative;
-    margin: auto;
-  }
-
-  .project-image-div {
-    position: relative;
     width: 650px;
     height: 390px;
+    margin-left: 3.5%;
     margin-top: 5%;
+  }
+
+  .project-image-div2 {
+    position: relative;
+    width: 600px;
+    height: 390px;
+    margin-top: 5%;
+    margin-left: 7.1%;
   }
 
   .project-image {
@@ -94,12 +102,19 @@
 }
 
 /*IPhone X*/
-@media screen and (max-width: 428px) and (max-height: 926px) {
+@media screen and (max-width: 428px) {
   .project-image-div {
     width: 320px;
     height: 191px;
     margin: auto;
     margin-top: 5%;
+  }
+
+  .project-image-div2 {
+    position: relative;
+    width: 0px;
+    height: 0px;
+
   }
 
   .project-image {
