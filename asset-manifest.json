@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7658b155.css",
-    "main.js": "/static/js/main.3845a3df.js",
+    "main.js": "/static/js/main.8aadfa15.js",
     "static/media/spread-the-dead.gif": "/static/media/spread-the-dead.d0d2fa102a8979a3e8e3.gif",
     "static/media/spread-the-dead-4.gif": "/static/media/spread-the-dead-4.93199fc99fcd1ac8ec03.gif",
     "static/media/spread-the-dead-2.gif": "/static/media/spread-the-dead-2.95d53aa8d48d2c449613.gif",
@@ -19,10 +19,10 @@
     "static/media/banksee-1.png": "/static/media/banksee-1.a189b15dcb9ed3cca0ae.png",
     "index.html": "/index.html",
     "main.7658b155.css.map": "/static/css/main.7658b155.css.map",
-    "main.3845a3df.js.map": "/static/js/main.3845a3df.js.map"
+    "main.8aadfa15.js.map": "/static/js/main.8aadfa15.js.map"
   },
   "entrypoints": [
     "static/css/main.7658b155.css",
-    "static/js/main.3845a3df.js"
+    "static/js/main.8aadfa15.js"
   ]
 }
