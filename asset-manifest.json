@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.fe83c7e4.css",
-    "main.js": "/Personal-Website/static/js/main.694f68e4.js",
-    "static/media/spread-the-dead.gif": "/Personal-Website/static/media/spread-the-dead.d0d2fa102a8979a3e8e3.gif",
-    "static/media/spread-the-dead-4.gif": "/Personal-Website/static/media/spread-the-dead-4.93199fc99fcd1ac8ec03.gif",
-    "static/media/spread-the-dead-2.gif": "/Personal-Website/static/media/spread-the-dead-2.95d53aa8d48d2c449613.gif",
-    "static/media/linear-code-2.gif": "/Personal-Website/static/media/linear-code-2.ace523981f53ff78d9d5.gif",
-    "static/media/spread-the-dead-3.gif": "/Personal-Website/static/media/spread-the-dead-3.44ff28def4db377fac7b.gif",
-    "static/media/linear-code-3.png": "/Personal-Website/static/media/linear-code-3.6b636e0c042c8492079f.png",
-    "static/media/ethical-4.png": "/Personal-Website/static/media/ethical-4.34759dc0c7bb60c09cef.png",
-    "static/media/ethical-5.png": "/Personal-Website/static/media/ethical-5.f36be3575f3289e9b5af.png",
-    "static/media/linear-code-1.gif": "/Personal-Website/static/media/linear-code-1.52e328e395308689cf19.gif",
-    "static/media/ethical-3.png": "/Personal-Website/static/media/ethical-3.dea2141d47728a95687c.png",
-    "static/media/spread-the-dead-1.png": "/Personal-Website/static/media/spread-the-dead-1.49971e844e04241fa753.png",
-    "static/media/ethical-2.png": "/Personal-Website/static/media/ethical-2.2251cbc1811996b0a549.png",
-    "static/media/banksee-3.png": "/Personal-Website/static/media/banksee-3.4c274a92a061b30a3b1d.png",
-    "static/media/banksee-2.png": "/Personal-Website/static/media/banksee-2.c94de12c37d164ff2cff.png",
-    "static/media/banksee-1.png": "/Personal-Website/static/media/banksee-1.a189b15dcb9ed3cca0ae.png",
-    "index.html": "/Personal-Website/index.html",
-    "main.fe83c7e4.css.map": "/Personal-Website/static/css/main.fe83c7e4.css.map",
-    "main.694f68e4.js.map": "/Personal-Website/static/js/main.694f68e4.js.map"
+    "main.css": "/static/css/main.fe83c7e4.css",
+    "main.js": "/static/js/main.0da228b8.js",
+    "static/media/spread-the-dead.gif": "/static/media/spread-the-dead.d0d2fa102a8979a3e8e3.gif",
+    "static/media/spread-the-dead-4.gif": "/static/media/spread-the-dead-4.93199fc99fcd1ac8ec03.gif",
+    "static/media/spread-the-dead-2.gif": "/static/media/spread-the-dead-2.95d53aa8d48d2c449613.gif",
+    "static/media/linear-code-2.gif": "/static/media/linear-code-2.ace523981f53ff78d9d5.gif",
+    "static/media/spread-the-dead-3.gif": "/static/media/spread-the-dead-3.44ff28def4db377fac7b.gif",
+    "static/media/linear-code-3.png": "/static/media/linear-code-3.6b636e0c042c8492079f.png",
+    "static/media/ethical-4.png": "/static/media/ethical-4.34759dc0c7bb60c09cef.png",
+    "static/media/ethical-5.png": "/static/media/ethical-5.f36be3575f3289e9b5af.png",
+    "static/media/linear-code-1.gif": "/static/media/linear-code-1.52e328e395308689cf19.gif",
+    "static/media/ethical-3.png": "/static/media/ethical-3.dea2141d47728a95687c.png",
+    "static/media/spread-the-dead-1.png": "/static/media/spread-the-dead-1.49971e844e04241fa753.png",
+    "static/media/ethical-2.png": "/static/media/ethical-2.2251cbc1811996b0a549.png",
+    "static/media/banksee-3.png": "/static/media/banksee-3.4c274a92a061b30a3b1d.png",
+    "static/media/banksee-2.png": "/static/media/banksee-2.c94de12c37d164ff2cff.png",
+    "static/media/banksee-1.png": "/static/media/banksee-1.a189b15dcb9ed3cca0ae.png",
+    "index.html": "/index.html",
+    "main.fe83c7e4.css.map": "/static/css/main.fe83c7e4.css.map",
+    "main.0da228b8.js.map": "/static/js/main.0da228b8.js.map"
   },
   "entrypoints": [
     "static/css/main.fe83c7e4.css",
-    "static/js/main.694f68e4.js"
+    "static/js/main.0da228b8.js"
   ]
 }
