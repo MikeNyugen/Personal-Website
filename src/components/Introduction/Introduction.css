@@ -158,8 +158,7 @@ a:hover {
   .introduction-div {
     min-width: 100vw;
     min-height: 100vh;
-    margin-bottom: 0px;
-    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 0px;;
   }
   .name {
     font-size: 55px;

@@ -52,7 +52,7 @@ const SlideShow = ({ imageList, isWeb }) => {
           </PhotoProvider>
         </div>
       ) : (
-        <div className="project-image-div2">
+        <div className="project-image-div2" >
           <PhotoProvider>
             <Fade
               duration={10500}

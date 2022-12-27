@@ -26,25 +26,22 @@ const Projects = () => {
       {true ? (
         <div
           className="banksee"
-          data-aos="zoom-in"
+          data-aos="fade-left"
           data-aos-duration="750"
           data-aos-once="true"
         >
           <h2 className="project-title">BankSee (In progress)</h2>
-          {width > 428 ? <SlideShow imageList={bankseeImages} isWeb={false} /> : <></>}
+          {width > 428 ? (
+            <SlideShow imageList={bankseeImages} isWeb={false} />
+          ) : (
+            <></>
+          )}
           <LogoStack logoList={bankseeLogoList} isWeb={false} />
           <div className="project-summary3">
             <h4>Project Summary:</h4>
             <p>
-              An{" "}
-              <a
-                href="https://www.gov.uk/government/publications/update-governance-of-open-banking/update-on-open-banking"
-                target="_blank"
-              >
-                <strong>Open Banking </strong>
-              </a>
-              powered, cross-platform mobile app that provides a financial
-              equivalent to Spotify's{" "}
+              A cross-platform mobile app that provides a financial equivalent
+              to Spotify's{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Spotify_Wrapped"
                 target="_blank"
@@ -55,7 +52,7 @@ const Projects = () => {
               <a href="https://truelayer.com/" target="_blank">
                 <strong>Truelayer</strong>
               </a>{" "}
-              API's to securely connect to user bank accounts.
+              APIs to connect to user bank accounts securely.
             </p>
           </div>
 
@@ -66,15 +63,15 @@ const Projects = () => {
                 View the merchants where you have spent the most money over the
                 past year.
               </li>
-              <li>Log into any bank account supported by TrueLayer</li>
+              <li>Log into any bank account supported by TrueLayer.</li>
             </ul>
           </div>
 
           <div className="banksee-technologies">
             <h4>Technologies:</h4>
-            <span>Front-end: React Native, TypeScript</span>
+            <span>Frontend: React Native, TypeScript</span>
             <br></br>
-            <span>Back-end: Spring Boot, Kotlin, TrueLayer</span>
+            <span>Backend: Spring Boot, Kotlin, TrueLayer</span>
           </div>
         </div>
       ) : (
@@ -83,7 +80,7 @@ const Projects = () => {
 
       <div
         className="ethical-review"
-        data-aos="zoom-in"
+        data-aos="fade-right"
         data-aos-duration="750"
         data-aos-once="true"
       >
@@ -113,7 +110,7 @@ const Projects = () => {
               and administrators.
             </li>
             <li>
-              Users can view the history of an application including the files,
+              Users can view the history of an application, including the files,
               comments, and feedback.
             </li>
           </ul>
@@ -121,15 +118,15 @@ const Projects = () => {
 
         <div className="ethical-technologies">
           <h4>Technologies:</h4>
-          <span>Front-end: React, TypeScript</span>
+          <span>Frontend: React, TypeScript</span>
           <br></br>
-          <span>Back-end: Spring Boot, Java, PostgreSQL</span>
+          <span>Backend: Spring Boot, Java, PostgreSQL</span>
         </div>
       </div>
 
       <div
         className="spread-the-dead"
-        data-aos="zoom-in"
+        data-aos="fade-left"
         data-aos-duration="750"
         data-aos-once="true"
       >
@@ -151,8 +148,8 @@ const Projects = () => {
             <a href="https://processing.org/" target="_blank">
               <strong>Processing</strong>
             </a>
-            . The game engine including the artificial intelligence and the
-            camera system was implemented from scratch.
+            . The game engine was implemented from scratch, including artificial
+            intelligence and the camera system.
           </p>
         </div>
 
@@ -181,7 +178,7 @@ const Projects = () => {
 
       <div
         className="linear-codes"
-        data-aos="zoom-in"
+        data-aos="fade-right"
         data-aos-duration="750"
         data-aos-once="true"
       >
@@ -212,9 +209,9 @@ const Projects = () => {
             >
               <strong>Tanner graphs</strong>
             </a>
-            ). The purpose of the tool was to provide an interactive learning
-            tool for students at the University of York enrolled in the
-            information theory module.
+            ). The tool's purpose was to provide an interactive learning tool
+            for students at the University of York enrolled in the information
+            theory module.
           </p>
         </div>
 

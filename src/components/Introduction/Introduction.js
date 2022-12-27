@@ -29,9 +29,9 @@ const Introduction = () => {
         data-aos-duration="1000"
       >
         <p>
-          Hey I’m Mike, I recently graduated from the
+          Hey, I’m Mike. I recently graduated from the
           <strong> University of St Andrews </strong>
-          with a <strong>MSc in computer science</strong>. I’m currently looking
+          with an <strong>MSc in computer science</strong>. I’m currently looking
           for full-time software engineering roles in London. Check out my{" "}
           <a href="#projects">
             <strong>projects</strong>

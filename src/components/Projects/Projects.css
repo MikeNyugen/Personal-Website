@@ -84,7 +84,7 @@ h4 {
   margin-left: 4%;
   bottom: 78%;
   width: 34%;
-  text-align: justify;
+  text-align: left;
   color: white;
 }
 
@@ -94,7 +94,7 @@ h4 {
   margin-left: 4%;
   bottom: 78%;
   width: 34%;
-  text-align: justify;
+  text-align: left;
   color: white;
 }
 
@@ -104,7 +104,7 @@ h4 {
   margin-left: 4%;
   bottom: 78%;
   width: 34%;
-  text-align: justify;
+  text-align: left;
   color: white;
 }
 
@@ -114,7 +114,7 @@ h4 {
   margin-left: 4%;
   bottom: 78%;
   width: 34%;
-  text-align: justify;
+  text-align: left;
   color: white;
 }
 
@@ -520,28 +520,24 @@ li {
   .banksee {
     height: 520px;
     width: 100%;
-    border-radius: 25px;
     box-shadow: none;
   }
 
   .ethical-review {
     height: 750px;
     width: 100%;
-    border-radius: 25px;
     box-shadow: none;
   }
 
   .spread-the-dead {
     height: 750px;
     width: 100%;
-    border-radius: 25px;
     box-shadow: none;
   }
 
   .linear-codes {
     height: 750px;
     width: 100%;
-    border-radius: 25px;
     box-shadow: none;
   }
 
