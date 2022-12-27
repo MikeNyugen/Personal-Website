@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fed1217.css",
-    "main.js": "/static/js/main.8e1e5c34.js",
+    "main.css": "/static/css/main.fe83c7e4.css",
+    "main.js": "/static/js/main.0da228b8.js",
     "static/media/spread-the-dead.gif": "/static/media/spread-the-dead.d0d2fa102a8979a3e8e3.gif",
     "static/media/spread-the-dead-4.gif": "/static/media/spread-the-dead-4.93199fc99fcd1ac8ec03.gif",
     "static/media/spread-the-dead-2.gif": "/static/media/spread-the-dead-2.95d53aa8d48d2c449613.gif",
@@ -18,11 +18,11 @@
     "static/media/banksee-2.png": "/static/media/banksee-2.c94de12c37d164ff2cff.png",
     "static/media/banksee-1.png": "/static/media/banksee-1.a189b15dcb9ed3cca0ae.png",
     "index.html": "/index.html",
-    "main.3fed1217.css.map": "/static/css/main.3fed1217.css.map",
-    "main.8e1e5c34.js.map": "/static/js/main.8e1e5c34.js.map"
+    "main.fe83c7e4.css.map": "/static/css/main.fe83c7e4.css.map",
+    "main.0da228b8.js.map": "/static/js/main.0da228b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fed1217.css",
-    "static/js/main.8e1e5c34.js"
+    "static/css/main.fe83c7e4.css",
+    "static/js/main.0da228b8.js"
   ]
 }
