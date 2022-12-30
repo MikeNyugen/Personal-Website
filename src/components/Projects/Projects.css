@@ -169,7 +169,23 @@ h4 {
   color: white;
 }
 
-.project-title:hover {
+.banksee a:hover {
+  color: black;
+}
+
+.ethical-review a:hover {
+  color: black;
+}
+
+.spread-the-dead a:hover {
+  color: black;
+}
+
+.linear-codes .project-title:hover {
+  color: black;
+}
+
+.linear-codes a:hover {
   color: black;
 }
 

@@ -16,7 +16,7 @@ a {
   color: inherit;
 }
 
-a:hover {
+.introduction-div a:hover {
   color: black;
 }
 
@@ -172,9 +172,10 @@ a:hover {
 
   .profile-description {
     font-size: 22px;
-    max-width: 87%;
+    max-width: 90%;
     top: 5px;
-    text-align: justify;
+    left:5px;
+    text-align: left;
   }
 
   .down-arrow {

@@ -8,9 +8,9 @@ const Footer = () => {
       </div>
       <div className="note">
         <span>
-          Website created using{" "}
+          Built with{" "}
           <a href="https://reactjs.org/" target="_blank">
-            <strong>React</strong>
+            <strong>React.js</strong>
           </a>
         </span>
       </div>

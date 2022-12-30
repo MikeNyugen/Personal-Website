@@ -90,7 +90,7 @@ export const bankseeLogoList = [
   {
     src: "https://avatars.githubusercontent.com/u/21106665?s=200&v=4",
     alt: "TrueLayer logo",
-  },
+  }
 ];
 
 export const ethicalLogoList = [
