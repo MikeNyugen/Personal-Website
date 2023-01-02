@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="copyright footer">
-        <span>&#169; 2022 Mike Nguyen </span>
+        <span>&#169; {new Date().getFullYear()} Mike Nguyen </span>
       </div>
       <div className="note">
         <span>
